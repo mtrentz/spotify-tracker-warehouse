@@ -34,7 +34,7 @@ models:
         description: "Name of the track."
       - name: track_disc_number
         description: "The disc number (in the album) the track appears on."
-      - name: track_duration
+      - name: track_duration_ms
         description: "Duration of the track in milliseconds."
       - name: track_is_explicit
         description: "Indicates if the track has explicit content."

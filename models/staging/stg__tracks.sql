@@ -7,7 +7,7 @@ with
             id as track_id,
             name as track_name,
             disc_number as track_disc_number,
-            duration as track_duration,
+            duration as track_duration_ms,
             is_explicit as track_is_explicit,
             popularity as track_popularity,
             track_number as track_track_number,

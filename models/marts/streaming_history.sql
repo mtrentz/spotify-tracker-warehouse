@@ -20,7 +20,7 @@ select
     t.track_id,
     t.track_name,
     t.track_disc_number,
-    t.track_duration,
+    t.track_duration_ms,
     t.track_is_explicit,
     t.track_popularity,
     t.track_track_number,

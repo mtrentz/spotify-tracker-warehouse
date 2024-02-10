@@ -7,18 +7,7 @@ with
 
     artists as (select * from {{ ref("stg__artists") }}),
 
-    track_stats as (
-        select
-            sh.track_id,
-            count(sh.track_id) as times_played,
-            sum(sh.ms_played) as total_ms_played,
-            sum(sh.minutes_played) as total_minutes_played,
-            sum(sh.hours_played) as total_hours_played,
-            min(sh.played_at) as first_played_at,
-            max(sh.played_at) as last_played_at
-        from streaming_history sh
-        group by sh.track_id
-    )
+    track_stats as (select * from {{ ref("intermediate__track_stats") }})
 
 select
     ts.track_id,
@@ -30,7 +19,7 @@ select
     ts.last_played_at,
     t.track_name,
     t.track_disc_number,
-    t.track_duration,
+    t.track_duration_ms,
     t.track_is_explicit,
     t.track_popularity,
     t.track_track_number,

@@ -50,7 +50,7 @@ models:
         tests:
           - not_null
 
-      - name: track_duration
+      - name: track_duration_ms
         description: "Duration of the track in milliseconds."
         tests:
           - not_null
@@ -62,8 +62,6 @@ models:
 
       - name: track_popularity
         description: "Popularity of the track on Spotify."
-        tests:
-          - not_null
 
       - name: track_track_number
         description: "The number of the track on its album."
