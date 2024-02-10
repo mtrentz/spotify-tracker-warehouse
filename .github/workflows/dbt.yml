@@ -21,5 +21,5 @@ jobs:
         git pull && \
         source venv/bin/activate && \
         dbt run && \
-        superset-cli -u ${{ secrets.SUPERSET_USER }} -p ${{ secrets.SUPERSET_PW } ${{ secrets.SUPERSET_URL } sync dbt-core ${{ secrets.DBT_REPO_PATH }}/target/manifest.json --project=spotify --target=superset --profiles=/root/.dbt/profiles.yml --import-db --disallow-edits --select=${{ secrets.DBT_REPO_PATH }}/models/marts/* \
+        superset-cli -u ${{ secrets.SUPERSET_USER }} -p ${{ secrets.SUPERSET_PW }} ${{ secrets.SUPERSET_URL }} sync dbt-core ${{ secrets.DBT_REPO_PATH }}/target/manifest.json --project=spotify --target=superset --profiles=/root/.dbt/profiles.yml --import-db --disallow-edits --select=${{ secrets.DBT_MODELS_PATH }}/models/marts/* \
         "
