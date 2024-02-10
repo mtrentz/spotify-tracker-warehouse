@@ -9,7 +9,7 @@ with
 
     streaming_history_fully_joined as (
 
-        select sh.played_at, t.track_duration
+        select sh.played_at, t.track_duration, t.track_popularity
         from streaming_history sh
         left join tracks t on sh.track_id = t.track_id
         left join albums al on t.track_album_id = al.album_id
