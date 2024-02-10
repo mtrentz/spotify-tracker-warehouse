@@ -5,8 +5,8 @@ with
         select
             played_at,
             ms_played,
-            ms_played / 60000 as minutes_played,
-            ms_played / 3600000 as hours_played,
+            ms_played::float / 60000 as minutes_played,
+            ms_played::float / 3600000 as hours_played,
             track_id,
             context,
             reason_start,
