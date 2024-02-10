@@ -85,8 +85,6 @@ models:
 
       - name: album_label
         description: "Label that released the album."
-        tests:
-          - not_null
 
       - name: album_popularity
         description: "Popularity of the album on Spotify."
