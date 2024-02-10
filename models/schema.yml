@@ -1,0 +1,70 @@
+version: 2
+
+models:
+  - name: streaming_history
+    description: "A data mart combining streaming history with track, album, and artist details from Spotify."
+    columns:
+      - name: played_at
+        description: "Timestamp when the track was played."
+        tests:
+          - not_null
+      - name: ms_played
+        description: "The total milliseconds the track was played."
+        tests:
+          - not_null
+      - name: minutes_played
+        description: "The total minutes the track was played."
+      - name: hours_played
+        description: "The total hours the track was played."
+      - name: context
+        description: "The context in which the track was played, e.g., playlist, album."
+      - name: reason_start
+        description: "The reason the track started playing, e.g., user action, autoplay."
+      - name: reason_end
+        description: "The reason the track stopped playing."
+      - name: is_skipped
+        description: "Indicates if the track was skipped."
+      - name: is_shuffled
+        description: "Indicates if playback was in shuffle mode."
+      - name: track_id
+        description: "Unique identifier for the track."
+        tests:
+          - not_null
+      - name: track_name
+        description: "Name of the track."
+      - name: track_disc_number
+        description: "The disc number (in the album) the track appears on."
+      - name: track_duration
+        description: "Duration of the track in milliseconds."
+      - name: track_is_explicit
+        description: "Indicates if the track has explicit content."
+      - name: track_popularity
+        description: "Popularity of the track on Spotify."
+      - name: track_track_number
+        description: "The track number in the album."
+      - name: track_is_local
+        description: "Indicates if the track is stored locally on the user's device."
+      - name: album_id
+        description: "Unique identifier for the album."
+        tests:
+          - not_null
+      - name: album_name
+        description: "Name of the album."
+      - name: album_label
+        description: "Label that released the album."
+      - name: album_popularity
+        description: "Popularity of the album on Spotify."
+      - name: album_release_date
+        description: "Release date of the album."
+      - name: album_total_tracks
+        description: "Total number of tracks in the album."
+      - name: artist_id
+        description: "Unique identifier for the artist."
+        tests:
+          - not_null
+      - name: artist_name
+        description: "Name of the artist."
+      - name: artist_popularity
+        description: "Popularity of the artist on Spotify."
+      - name: artist_followers
+        description: "Number of followers the artist has on Spotify."

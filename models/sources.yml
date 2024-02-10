@@ -1,0 +1,25 @@
+version: 2
+
+sources:
+  - name: spotify
+    database: spotify
+    schema: public
+    tables:
+      - name: genres
+        description: "Genres available in the Spotify dataset, including unique identifiers and genre names."
+      - name: artists
+        description: "Details about artists, including their popularity, follower count, and associated images."
+      - name: albums
+        description: "Information on albums, such as name, label, popularity, release date, total tracks, and images, along with a reference to the main artist."
+      - name: tracks
+        description: "Tracks data, including names, disc number, duration, explicitness, popularity, track number, locality, and references to their albums and main artists."
+      - name: streaming_history
+        description: "User streaming history, capturing when tracks were played, duration, context of play, and whether tracks were skipped."
+      - name: album_artists
+        description: "Associative table linking albums to their artists, allowing albums to have multiple artists."
+      - name: track_artists
+        description: "Associative table linking tracks to their artists, enabling tracks to feature multiple artists."
+      - name: album_genres
+        description: "Links between albums and genres, allowing for the categorization of albums by genre."
+      - name: artist_genres
+        description: "Associative table between artists and genres, categorizing artists into genres."
