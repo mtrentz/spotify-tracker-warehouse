@@ -1,0 +1,21 @@
+name: Run dbt project on commit
+
+on: [push]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      SERVER_USER: root
+      SERVER_IP: 168.119.159.21
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up SSH connection
+      uses: webfactory/ssh-agent@v0.5.3
+      with:
+        ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+    - name: Run dbt on your machine
+      run: ssh -o StrictHostKeyChecking=no ${{ env.SERVER_USER }}@${{ env.SERVER_IP }} "cd ${{ env.DBT_REPO_PATH }} && source venv/bin/activate && dbt run"
