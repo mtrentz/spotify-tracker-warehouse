@@ -14,5 +14,11 @@ jobs:
       with:
         ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
-    - name: Run dbt
-      run: ssh -o StrictHostKeyChecking=no ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_IP }} "cd ${{ secrets.DBT_REPO_PATH }} && git pull && source venv/bin/activate && dbt run"
+- name: Run dbt
+  run: |
+    ssh -o StrictHostKeyChecking=no ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_IP }} "\
+    cd ${{ secrets.DBT_REPO_PATH }} && \
+    git pull && \
+    source venv/bin/activate && \
+    dbt run && \
+    superset-cli -u ${{ secrets.SUPERSET_USER }} -p ${{ secrets.SUPERSET_PW } ${{ secrets.SUPERSET_URL } sync dbt-core ${{ secrets.DBT_REPO_PATH }}/target/manifest.json --project=spotify --target=superset --profiles=/root/.dbt/profiles.yml --import-db --disallow-edits --select=${{ secrets.DBT_REPO_PATH }}/models/marts/*
