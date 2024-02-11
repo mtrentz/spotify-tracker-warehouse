@@ -42,7 +42,7 @@ select
     ar.artist_id,
     ar.artist_name,
     ar.artist_popularity,
-    ar.artist_followers,
+    ar.artist_followers
 
 from track_stats ts
 left join tracks t on ts.track_id = t.track_id
