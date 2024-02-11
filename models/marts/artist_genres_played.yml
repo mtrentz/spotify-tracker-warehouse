@@ -1,0 +1,22 @@
+version: 2
+
+models:
+  - name: artist_genres_played
+    description: "A data mart listing the genres of artists listened to, based on the user's streaming history."
+    columns:
+      - name: played_at
+        description: "Timestamp when the track was played."
+        tests:
+          - not_null
+      - name: ms_played
+        description: "The total milliseconds the track was played."
+        tests:
+          - not_null
+      - name: minutes_played
+        description: "The total minutes the track was played."
+      - name: hours_played
+        description: "The total hours the track was played."
+      - name: genre_name
+        description: "The name of the genre associated with the artist of the track."
+        tests:
+          - not_null
