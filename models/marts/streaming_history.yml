@@ -32,6 +32,7 @@ models:
           - not_null
       - name: track_name
         label: Track Name
+        verbose_name: Track Name Verb
         description: "Name of the track."
       - name: track_disc_number
         description: "The disc number (in the album) the track appears on."
