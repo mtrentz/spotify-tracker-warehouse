@@ -1,3 +1,5 @@
+{{ config(materialized="table") }}
+
 with
     streaming_history as (select * from {{ ref("stg__streaming_history") }}),
 
