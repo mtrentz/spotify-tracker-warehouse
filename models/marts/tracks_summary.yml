@@ -2,119 +2,100 @@ version: 2
 
 models:
   - name: tracks_summary
-    description: "Summary statistics for tracks played, including play counts and durations."
+    description: Summary statistics for tracks played, including play counts and durations.
     columns:
       - name: track_id
-        description: "Unique identifier for the track."
+        description: Unique identifier for the track.
         tests:
           - not_null
           - unique
-
       - name: times_played
-        description: "Total number of times the track was played."
+        description: Total number of times the track was played.
         tests:
           - not_null
-
       - name: total_ms_played
-        description: "Total milliseconds the track was played."
+        description: Total milliseconds the track was played.
         tests:
           - not_null
-
       - name: total_minutes_played
-        description: "Total minutes the track was played."
+        description: Total minutes the track was played.
         tests:
           - not_null
-
       - name: total_hours_played
-        description: "Total hours the track was played."
+        description: Total hours the track was played.
         tests:
           - not_null
-
       - name: first_played_at
-        description: "Timestamp of the first play of the track."
+        description: Timestamp of the first play of the track.
         tests:
           - not_null
-
       - name: last_played_at
-        description: "Timestamp of the last play of the track."
+        description: Timestamp of the last play of the track.
         tests:
           - not_null
-
       - name: track_name
-        description: "Name of the track."
+        description: Name of the track.
         tests:
           - not_null
-
       - name: track_disc_number
-        description: "The disc number on which the track appears."
+        description: The disc number on which the track appears.
         tests:
           - not_null
-
       - name: track_duration_ms
-        description: "Duration of the track in milliseconds."
+        description: Duration of the track in milliseconds.
         tests:
           - not_null
-
       - name: track_is_explicit
-        description: "Indicates if the track contains explicit content."
+        description: Indicates if the track contains explicit content.
         tests:
           - not_null
-
       - name: track_popularity
-        description: "Popularity of the track on Spotify."
-
+        description: Popularity of the track on Spotify.
       - name: track_track_number
-        description: "The number of the track on its album."
+        description: The number of the track on its album.
         tests:
           - not_null
-
       - name: track_is_local
-        description: "Indicates if the track is stored locally."
+        description: Indicates if the track is stored locally.
         tests:
           - not_null
-
       - name: album_id
-        description: "Unique identifier for the album of the track."
+        description: Unique identifier for the album of the track.
         tests:
           - not_null
-
       - name: album_name
-        description: "Name of the album."
+        description: Name of the album.
         tests:
           - not_null
-
       - name: album_label
-        description: "Label that released the album."
-
+        description: Label that released the album.
       - name: album_popularity
-        description: "Popularity of the album on Spotify."
+        description: Popularity of the album on Spotify.
         tests:
           - not_null
-
       - name: album_release_date
-        description: "Release date of the album."
+        description: Release date of the album.
         tests:
           - not_null
-
       - name: album_total_tracks
-        description: "Total number of tracks in the album."
+        description: Total number of tracks in the album.
         tests:
           - not_null
-
       - name: artist_id
-        description: "Unique identifier for the artist of the track."
+        description: Unique identifier for the artist of the track.
         tests:
           - not_null
-
       - name: artist_name
-        description: "Name of the artist."
+        description: Name of the artist.
         tests:
           - not_null
-
       - name: artist_popularity
-        description: "Popularity of the artist on Spotify."
-
+        description: Popularity of the artist on Spotify.
       - name: artist_followers
-        description: "Number of followers the artist has on Spotify."
+        description: Number of followers the artist has on Spotify.
         tests:
           - not_null
+      - name: all_track_artists
+        description: All artists of the track as a comma separated string.
+      - name: all_album_artists
+        description: All artists of the album as a comma separated string.

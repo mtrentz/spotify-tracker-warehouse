@@ -28,16 +28,10 @@ models:
         description: "Indicates if playback was in shuffle mode."
       - name: track_id
         description: "Unique identifier for the track."
-        meta:
-          superset:
-            verbose_name: "My Verb Name"
         tests:
           - not_null
       - name: track_name
         description: "Name of the track."
-        meta:
-          superset:
-            verbose_name: "Track Name Meta Verb"
       - name: track_disc_number
         description: "The disc number (in the album) the track appears on."
       - name: track_duration_ms
@@ -74,3 +68,7 @@ models:
         description: "Popularity of the artist on Spotify."
       - name: artist_followers
         description: "Number of followers the artist has on Spotify."
+      - name: all_track_artists
+        description: "All artists of the track as a comma separated string."
+      - name: all_album_artists
+        description: "All artists of the album as a comma separated string."
