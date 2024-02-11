@@ -16,6 +16,8 @@ models:
         description: "The total minutes the track was played."
       - name: hours_played
         description: "The total hours the track was played."
+      - name: days_played
+        description: "The total days the track was played."
       - name: genre_name
         description: "The name of the genre associated with the artist of the track."
         tests:
