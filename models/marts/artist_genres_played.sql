@@ -11,13 +11,7 @@ with
 
     genres as (select * from {{ ref("stg__genres") }})
 
-select
-    sh.played_at,
-    sh.ms_played,
-    sh.minutes_played,
-    sh.hours_played,
-    sh.days_played,
-    g.genre_name
+select sh.played_at, sh.ms_played, sh.minutes_played, sh.hours_played, g.genre_name
 
 from streaming_history sh
 inner join tracks t on sh.track_id = t.track_id
