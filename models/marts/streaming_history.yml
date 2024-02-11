@@ -28,16 +28,16 @@ models:
         description: "Indicates if playback was in shuffle mode."
       - name: track_id
         description: "Unique identifier for the track."
+        meta:
+          superset:
+            verbose_name: "My Verb Name"
         tests:
           - not_null
       - name: track_name
-        label: "Track Name"
-        verbose_name: "Track Name Verb"
         description: "Name of the track."
         meta:
           superset:
             verbose_name: "Track Name Meta Verb"
-            label: "Track Name Meta Label"
       - name: track_disc_number
         description: "The disc number (in the album) the track appears on."
       - name: track_duration_ms
