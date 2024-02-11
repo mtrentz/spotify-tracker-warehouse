@@ -18,7 +18,11 @@ select
     ars.total_minutes_played,
     ars.total_hours_played,
     ars.first_played_at,
-    ars.last_played_at
+    ars.last_played_at,
+    ars.times_skipped,
+    ars.skip_rate,
+    ars.manual_plays,
+    ars.avg_track_listen_minutes
 
 from artist_stats ars
 left join artists ar on ars.artist_id = ar.artist_id

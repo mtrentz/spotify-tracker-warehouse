@@ -21,6 +21,9 @@ select
     ts.total_hours_played,
     ts.first_played_at,
     ts.last_played_at,
+    ts.times_skipped,
+    ts.skip_rate,
+    ts.manual_plays,
     t.track_name,
     t.track_disc_number,
     t.track_duration_ms,
@@ -39,7 +42,8 @@ select
     ar.artist_id,
     ar.artist_name,
     ar.artist_popularity,
-    ar.artist_followers
+    ar.artist_followers,
+
 from track_stats ts
 left join tracks t on ts.track_id = t.track_id
 left join albums al on t.track_album_id = al.album_id
