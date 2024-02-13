@@ -1,4 +1,4 @@
-{{ config(materialized="materializedview") }}
+{{ config(materialized="materialized_view") }}
 
 with
     streaming_history as (select * from {{ ref("stg__streaming_history") }}),
