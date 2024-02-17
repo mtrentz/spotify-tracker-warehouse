@@ -9,9 +9,7 @@ with
 
     track_stats as (select * from {{ ref("intermediate__track_stats") }}),
 
-    all_track_artists as (select * from {{ ref("intermediate__all_track_artists") }}),
-
-    all_album_artists as (select * from {{ ref("intermediate__all_album_artists") }})
+    all_track_artists as (select * from {{ ref("intermediate__all_track_artists") }})
 
 select
     ts.track_id,
@@ -39,7 +37,6 @@ select
     al.album_release_date,
     al.album_total_tracks,
     al.album_image_sm,
-    aal.artists as all_album_artists,
     ar.artist_id,
     ar.artist_name,
     ar.artist_popularity,
@@ -51,4 +48,3 @@ left join tracks t on ts.track_id = t.track_id
 left join albums al on t.track_album_id = al.album_id
 left join artists ar on t.track_main_artist_id = ar.artist_id
 left join all_track_artists ata on ts.track_id = ata.track_id
-left join all_album_artists aal on al.album_id = aal.album_id

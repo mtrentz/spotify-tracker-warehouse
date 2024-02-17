@@ -5,9 +5,7 @@ with
 
     albums as (select * from {{ ref("stg__albums") }}),
 
-    album_stats as (select * from {{ ref("intermediate__album_stats") }}),
-
-    all_album_artists as (select * from {{ ref("intermediate__all_album_artists") }})
+    album_stats as (select * from {{ ref("intermediate__album_stats") }})
 
 select
 
@@ -17,7 +15,6 @@ select
     al.album_popularity,
     al.album_release_date,
     al.album_total_tracks,
-    aal.artists as all_album_artists,
     ar.artist_id,
     ar.artist_name,
     ar.artist_popularity,
@@ -34,5 +31,3 @@ from album_stats als
 left join albums al on als.album_id = al.album_id
 -- Here I only care about the main artist of the album
 left join artists ar on al.album_main_artist_id = ar.artist_id
--- Here I will join a comma separated string of all artists
-left join all_album_artists aal on als.album_id = aal.album_id

@@ -70,5 +70,3 @@ models:
         description: Timestamp of the last play of any track from the album.
         tests:
           - not_null
-      - name: all_album_artists
-        description: All artists on the album.

@@ -97,5 +97,3 @@ models:
           - not_null
       - name: all_track_artists
         description: All artists of the track as a comma separated string.
-      - name: all_album_artists
-        description: All artists of the album as a comma separated string.
