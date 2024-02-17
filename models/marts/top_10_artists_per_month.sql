@@ -34,7 +34,12 @@ with
         where artist_rank > 10
         group by month
     )
-select month, artist_name, sum(total_ms_played) as total_ms_played
+select
+    month,
+    artist_name,
+    sum(total_ms_played) as total_ms_played,
+    sum(total_ms_played) / 60000 as total_minutes_played,
+    sum(total_ms_played) / 3600000 as total_hours_played
 from artists_with_others
 group by month, artist_name
 order by month, total_ms_played desc
