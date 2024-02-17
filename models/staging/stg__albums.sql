@@ -10,7 +10,8 @@ with
             popularity as album_popularity,
             release_date as album_release_date,
             total_tracks as album_total_tracks,
-            main_artist_id as album_main_artist_id
+            main_artist_id as album_main_artist_id,
+            image_sm as album_image_sm
         from source
     )
 

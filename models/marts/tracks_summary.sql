@@ -38,6 +38,7 @@ select
     al.album_popularity,
     al.album_release_date,
     al.album_total_tracks,
+    al.album_image_sm,
     aal.artists as all_album_artists,
     ar.artist_id,
     ar.artist_name,
