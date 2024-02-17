@@ -2,5 +2,6 @@
     "dbt.queryLimit": 500,
     "dbt.enableNewQueryPanel": true,
     "dbt.enableNewLineagePanel": true,
-    "dbt.enableNewDocsPanel": true
+    "dbt.enableNewDocsPanel": true,
+    "dbt.queryScale": 1.01
 }
