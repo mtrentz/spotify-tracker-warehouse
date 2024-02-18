@@ -7,7 +7,6 @@ with
 
 select
 
-    ars.artist_id,
     ar.*,
     ars.times_played,
     ars.unique_tracks_played,
