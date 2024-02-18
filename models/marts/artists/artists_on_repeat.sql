@@ -4,7 +4,7 @@ with
         select * from {{ ref("intermediate__repeated_artist_plays") }}
     ),
 
-    artists as (select * from {{ ref("stg__artists") }})
+    artists as (select * from {{ ref("artists") }})
 
 select
     ra.start_time,

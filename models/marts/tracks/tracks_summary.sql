@@ -1,11 +1,11 @@
 with
     streaming_history as (select * from {{ ref("stg__streaming_history") }}),
 
-    tracks as (select * from {{ ref("stg__tracks") }}),
+    tracks as (select * from {{ ref("tracks") }}),
 
-    albums as (select * from {{ ref("stg__albums") }}),
+    albums as (select * from {{ ref("albums") }}),
 
-    artists as (select * from {{ ref("stg__artists") }}),
+    artists as (select * from {{ ref("artists") }}),
 
     track_stats as (select * from {{ ref("intermediate__track_stats") }}),
 
@@ -22,13 +22,7 @@ select
     ts.times_skipped,
     ts.skip_rate,
     ts.manual_plays,
-    t.track_name,
-    t.track_disc_number,
-    t.track_duration_ms,
-    t.track_is_explicit,
-    t.track_popularity,
-    t.track_track_number,
-    t.track_is_local,
+    t.*,
     ata.artists as all_track_artists,
     al.album_id,
     al.album_name,
@@ -37,11 +31,13 @@ select
     al.album_release_date,
     al.album_total_tracks,
     al.album_image_sm,
+    al.html_album_card,
     ar.artist_id,
     ar.artist_name,
     ar.artist_popularity,
     ar.artist_followers,
-    ar.artist_image_sm
+    ar.artist_image_sm,
+    ar.html_artist_card
 
 from track_stats ts
 left join tracks t on ts.track_id = t.track_id

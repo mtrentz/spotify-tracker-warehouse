@@ -1,17 +1,14 @@
 with
     streaming_history as (select * from {{ ref("stg__streaming_history") }}),
 
-    artists as (select * from {{ ref("stg__artists") }}),
+    artists as (select * from {{ ref("artists") }}),
 
     artist_stats as (select * from {{ ref("intermediate__artist_stats") }})
 
 select
 
     ars.artist_id,
-    ar.artist_name,
-    ar.artist_popularity,
-    ar.artist_followers,
-    ar.artist_image_sm,
+    ar.*,
     ars.times_played,
     ars.unique_tracks_played,
     ars.unique_albums_played,
