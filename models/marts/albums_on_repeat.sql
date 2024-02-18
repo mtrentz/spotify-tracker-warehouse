@@ -1,10 +1,8 @@
 with
 
-    repeated_artists as (
-        select * from {{ ref("intermediate__repeated_artist_plays") }}
-    ),
+    repeated_albums as (select * from {{ ref("intermediate__repeated_album_plays") }}),
 
-    artists as (select * from {{ ref("stg__artists") }})
+    albums as (select * from {{ ref("stg__albums") }})
 
 select
     ra.start_time,
@@ -15,5 +13,5 @@ select
     ra.total_ms_played::float / 60000 as total_minutes_played,
     ra.total_ms_played::float / 3600000 as total_hours_played,
     a.*
-from repeated_artists ra
-left join artists a on ra.artist_id = a.artist_id
+from repeated_albums ra
+left join albums a on ra.album_id = a.album_id
