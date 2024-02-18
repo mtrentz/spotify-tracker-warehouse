@@ -11,6 +11,7 @@ select
     ar.artist_name,
     ar.artist_popularity,
     ar.artist_followers,
+    ar.artist_image_sm,
     ars.times_played,
     ars.unique_tracks_played,
     ars.unique_albums_played,
