@@ -1,4 +1,4 @@
-{{ config(materialized="materialized_view") }}
+{{ config(materialized="incremental") }}
 
 with
     streaming_history as (select * from {{ ref("stg__streaming_history") }}),
@@ -20,3 +20,7 @@ inner join artists ar on t.track_main_artist_id = ar.artist_id
 -- Gets all artist genres (will duplicate rows)
 inner join artist_genres ag on ar.artist_id = ag.artist_id
 inner join genres g on ag.genre_id = g.genre_id
+
+{% if is_incremental() %}
+    where sh.played_at > (select max(played_at) from {{ this }})
+{% endif %}
