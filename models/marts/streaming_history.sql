@@ -1,4 +1,4 @@
-{{ config(materialized="materialized_view") }}
+{{ config(materialized="incremental") }}
 
 with
     streaming_history as (select * from {{ ref("stg__streaming_history") }}),
@@ -18,3 +18,7 @@ select
     t.*
 from streaming_history sh
 left join tracks t on sh.track_id = t.track_id
+
+{% if is_incremental() %}
+    where sh.played_at > (select max(played_at) from {{ this }})
+{% endif %}
