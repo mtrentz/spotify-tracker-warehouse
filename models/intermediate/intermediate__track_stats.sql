@@ -1,10 +1,10 @@
 {{ config(materialized="ephemeral") }}
 
-with streaming_history as (select * from {{ ref("stg__streaming_history") }})
+with streaming_history as (select * from {{ ref("streaming_history") }})
 
 select
-    sh.track_id,
-    count(sh.track_id) as times_played,
+    sh.track_and_artist_combined,
+    count(sh.track_and_artist_combined) as times_played,
     sum(sh.ms_played) as total_ms_played,
     sum(sh.minutes_played) as total_minutes_played,
     sum(sh.hours_played) as total_hours_played,
@@ -14,4 +14,8 @@ select
     coalesce(sum(is_skipped::int)::float / count(sh.track_id), 0) as skip_rate,
     coalesce(count(*) filter (where reason_start = 'clickrow'), 0) as manual_plays
 from streaming_history sh
-group by sh.track_id
+-- I will be using this by "Track Name - Artist Name" so I will also group it
+-- like that !
+-- If there are two occurances of the same track by the same artist, it will be
+-- counted as one!
+group by sh.track_and_artist_combined

@@ -1,17 +1,12 @@
 {{ config(materialized="ephemeral") }}
 
 
-with
-    streaming_history as (select * from {{ ref("stg__streaming_history") }}),
-
-    tracks as (select * from {{ ref("stg__tracks") }}),
-
-    albums as (select * from {{ ref("stg__albums") }})
+with streaming_history as (select * from {{ ref("streaming_history") }})
 
 select
 
-    al.album_id,
-    count(al.album_id) as times_played,
+    sh.album_and_artist_combined,
+    count(sh.album_and_artist_combined) as times_played,
     -- amount of tracks of that album listened to
     count(distinct sh.track_id) as unique_tracks_from_album_played,
     sum(sh.ms_played) as total_ms_played,
@@ -21,6 +16,7 @@ select
     max(sh.played_at) as last_played_at
 
 from streaming_history sh
-left join tracks t on sh.track_id = t.track_id
-left join albums al on t.track_album_id = al.album_id
-group by al.album_id
+-- I will be using this by "Album Name - Artist Name" so I will also group it!
+-- If there are two occurances of the same album by the same artist, it will be
+-- counted as one!
+group by album_and_artist_combined

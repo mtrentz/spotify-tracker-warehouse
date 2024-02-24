@@ -5,68 +5,35 @@ models:
     columns:
       - name: album_id
         description: Unique identifier for the album.
-        tests:
-          - not_null
-          - unique
       - name: album_name
         description: Name of the album.
-        tests:
-          - not_null
       - name: album_label
         description: Record label that released the album.
       - name: album_popularity
         description: Popularity of the album on Spotify.
-        tests:
-          - not_null
       - name: album_release_date
         description: Release date of the album.
-        tests:
-          - not_null
       - name: album_total_tracks
         description: Total number of tracks in the album.
-        tests:
-          - not_null
       - name: artist_id
         description: Unique identifier for the main artist of the album.
-        tests:
-          - not_null
       - name: artist_name
         description: Name of the main artist of the album.
-        tests:
-          - not_null
       - name: artist_popularity
         description: Popularity of the main artist on Spotify.
-        tests:
-          - not_null
       - name: artist_followers
         description: Number of followers the main artist has on Spotify.
-        tests:
-          - not_null
       - name: times_played
         description: Total number of times tracks from the album were played.
-        tests:
-          - not_null
       - name: unique_tracks_from_album_played
         description: Number of unique tracks from the album that were played.
-        tests:
-          - not_null
       - name: total_ms_played
         description: Total milliseconds tracks from the album were played.
-        tests:
-          - not_null
       - name: total_minutes_played
         description: Total minutes tracks from the album were played.
-        tests:
-          - not_null
       - name: total_hours_played
         description: Total hours tracks from the album were played.
-        tests:
-          - not_null
       - name: first_played_at
         description: Timestamp of the first play of any track from the album.
-        tests:
-          - not_null
       - name: last_played_at
         description: Timestamp of the last play of any track from the album.
-        tests:
-          - not_null

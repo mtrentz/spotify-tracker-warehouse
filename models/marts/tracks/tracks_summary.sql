@@ -1,18 +1,18 @@
-with
-    streaming_history as (select * from {{ ref("stg__streaming_history") }}),
+{{ config(materialized="table") }}
 
+with
     tracks as (select * from {{ ref("tracks") }}),
 
-    albums as (select * from {{ ref("albums") }}),
+    -- Since I'm grouping by "track_name - artist_name" then when I'm joining
+    -- it with the track table to get the rest of the information
+    -- I just want to get the first one for that combination.
+    distinct_tracks as (
+        select distinct on (tracks.track_and_artist_combined) tracks.* from tracks
+    ),
 
-    artists as (select * from {{ ref("artists") }}),
-
-    track_stats as (select * from {{ ref("intermediate__track_stats") }}),
-
-    all_track_artists as (select * from {{ ref("intermediate__all_track_artists") }})
+    track_stats as (select * from {{ ref("intermediate__track_stats") }})
 
 select
-    t.*,
     ts.times_played,
     ts.total_ms_played,
     ts.total_minutes_played,
@@ -21,9 +21,8 @@ select
     ts.last_played_at,
     ts.times_skipped,
     ts.skip_rate,
-    ts.manual_plays
+    ts.manual_plays,
+    dt.*
 from track_stats ts
-left join tracks t on ts.track_id = t.track_id
-left join albums al on t.track_album_id = al.album_id
-left join artists ar on t.track_main_artist_id = ar.artist_id
-left join all_track_artists ata on ts.track_id = ata.track_id
+left join
+    distinct_tracks dt on dt.track_and_artist_combined = ts.track_and_artist_combined
