@@ -7,7 +7,12 @@ with
     -- it with the track table to get the rest of the information
     -- I just want to get the first one for that combination.
     distinct_tracks as (
-        select distinct on (tracks.track_and_artist_combined) tracks.* from tracks
+        select distinct on (tracks.track_and_artist_combined) tracks.*
+        from tracks
+        -- This is so that the most popular album (with the "correct" album art)
+        -- is more likely placed on top!
+        order by
+            tracks.track_and_artist_combined, coalesce(tracks.album_popularity, 0) desc
     ),
 
     track_stats as (select * from {{ ref("intermediate__track_stats") }})

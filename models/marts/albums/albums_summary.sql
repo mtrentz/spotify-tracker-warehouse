@@ -5,7 +5,12 @@ with
     albums as (select * from {{ ref("albums") }}),
 
     distinct_albums as (
-        select distinct on (albums.album_and_artist_combined) albums.* from albums
+        select distinct on (albums.album_and_artist_combined) albums.*
+        from albums
+        -- This is so that the most popular album (with the "correct" album art)
+        -- is more likely placed on top!
+        order by
+            albums.album_and_artist_combined, coalesce(albums.album_popularity, 0) desc
     ),
 
     album_stats as (select * from {{ ref("intermediate__album_stats") }})
