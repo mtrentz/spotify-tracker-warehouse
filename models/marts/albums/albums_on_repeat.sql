@@ -2,7 +2,7 @@ with
 
     repeated_albums as (select * from {{ ref("intermediate__repeated_album_plays") }}),
 
-    albums as (select * from {{ ref("stg__albums") }})
+    albums as (select * from {{ ref("albums") }})
 
 select
     ra.start_time,
