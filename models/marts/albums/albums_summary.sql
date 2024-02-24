@@ -23,6 +23,9 @@ select
     als.total_hours_played,
     als.first_played_at,
     als.last_played_at,
+    als.times_skipped,
+    als.skip_rate,
+    als.manual_plays,
     da.*
 from album_stats als
 left join
