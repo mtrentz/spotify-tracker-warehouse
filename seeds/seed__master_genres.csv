@@ -16,12 +16,12 @@ east coast hip hop,rap
 pop rap,rap
 symphonic rock,rock
 nu metal,metal
-alternative rock,indie
+alternative rock,rock
 yacht rock,rock
 art rock,rock
 permanent wave,rock
 psychedelic rock,rock
-post-grunge,metal
+post-grunge,rock
 edm,electronic
 blues rock,rock
 hardcore hip hop,rap
@@ -29,8 +29,8 @@ west coast rap,rap
 complextro,electronic
 brazilian hip hop,brazilian
 glam metal,rock
-grunge,indie
-modern rock,indie
+grunge,rock
+modern rock,rock
 gaming edm,electronic
 chillstep,electronic
 supergroup,rock
@@ -46,7 +46,7 @@ southern rock,rock
 metal,metal
 filthstep,electronic
 pop,indie
-downtempo,electronic
+downtempo,
 modern blues rock,rock
 electric blues,rock
 modern hard rock,rock
@@ -54,19 +54,19 @@ chillhop,rap
 jazz rap,rap
 japanese chillhop,rap
 classical,classical
-instrumental hip hop,
+instrumental hip hop,rap
 ambeat,rap
 g funk,rap
 violao,brazilian
 mpb,brazilian
-japanese old school hip hop,
+japanese old school hip hop,rap
 rap metal,metal
 singer-songwriter,rock
 brazilian jazz,brazilian
 trap,rap
 japanese jazz fusion,japanese
 jazz guitar,jazz
-swamp rock,
+swamp rock,rock
 samba,brazilian
 melodic dubstep,electronic
 boom bap brasileiro,
@@ -80,12 +80,12 @@ new wave pop,rock
 dancefloor dnb,
 southern hip hop,rap
 brazilian reggae,brazilian
-rap nacional antigo,
+rap nacional antigo,rap
 latin classical,brazilian
 acid rock,rock
 candy pop,indie
-synthwave,
-instrumental rock,metal
+synthwave,electronic
+instrumental rock,rock
 velha guarda,brazilian
 italian pop,italian
 indie rock italiano,italian
@@ -95,14 +95,14 @@ lo-fi study,
 progressive electro house,electronic
 texas blues,rock
 bebop,jazz
-pop punk,metal
+pop punk,rock
 indietronica,indie
 dance pop,indie
 underground hip hop,rap
 scorecore,japanese
-chillsynth,
-pixie,metal
-pop emo,metal
+chillsynth,electronic
+pixie,rock
+pop emo,rock
 pixel,
 house,electronic
 lo-fi beats,rap
@@ -110,14 +110,14 @@ hard bop,jazz
 japanese jazztronica,japanese
 progressive house,electronic
 detroit hip hop,rap
-canadian rock,indie
+canadian rock,rock
 atl hip hop,rap
 indie pop rap,rap
 british invasion,rock
 otacore,japanese
-christian alternative rock,metal
+christian alternative rock,rock
 substep,electronic
-christian rock,metal
+christian rock,rock
 british blues,rock
 synthpop,rock
 canadian metal,metal
@@ -128,14 +128,14 @@ post-romantic era,classical
 sheffield indie,indie
 choro,brazilian
 chicago rap,rap
-proto-metal,
+proto-metal,metal
 pop edm,electronic
 uk dance,electronic
 tropical house,electronic
 violao classico,
 classical era,classical
 north carolina hip hop,
-stoner rock,metal
+stoner rock,rock
 sacramento indie,indie
 early romantic era,classical
 new romantic,rock
@@ -147,7 +147,7 @@ r&b,rap
 jam band,rock
 indie game soundtrack,japanese
 vgm remix,
-flute rock,
+flute rock,rock
 canadian electronic,electronic
 future garage,electronic
 canterbury scene,rock
@@ -156,7 +156,7 @@ synth prog,
 dubstep,electronic
 vgm instrumental,
 flamenco guitar,latin
-indie soul,rap
+indie soul,
 dutch house,electronic
 canadian pop,indie
 dance rock,rock
@@ -167,13 +167,13 @@ glitch,electronic
 jazz saxophone,jazz
 spacewave,electronic
 late romantic era,classical
-canadian ccm,metal
+canadian ccm,rock
 classical guitar quartet,classical
 stoner metal,metal
-palm desert scene,metal
+palm desert scene,rock
 funk metal,metal
 power pop,rock
-speedrun,
+speedrun,electronic
 russian romanticism,classical
 vocal jazz,jazz
 cool jazz,jazz
@@ -190,14 +190,14 @@ flamenco,latin
 metropopolis,indie
 aussietronica,electronic
 brazilian classical,
-boy band,indie
+boy band,
 rumba,latin
-rap mineiro,
+rap mineiro,rap
 indie rock,indie
 ukrainian classical,classical
-dubstep product,
+dubstep product,electronic
 piano rock,indie
-rap rock,metal
+rap rock,rock
 tropicalia,
 neo soul,rap
 pop rock,indie
@@ -296,7 +296,7 @@ swedish indie pop,indie
 deep dnb,
 bass trap,electronic
 progressive trance,electronic
-punk,metal
+punk,rock
 roots rock,rock
 purple sound,electronic
 swedish soul,
@@ -313,7 +313,7 @@ classic soul,rap
 dance-punk,indie
 belgian edm,electronic
 german metal,metal
-german rock,
+german rock,rock
 deep euro house,electronic
 german hard rock,rock
 samba de roda,brazilian
@@ -322,8 +322,8 @@ future bass,
 oceania soundtrack,japanese
 oxford indie,indie
 minimal tech house,electronic
-modern alternative rock,indie
-socal pop punk,metal
+modern alternative rock,rock
+socal pop punk,rock
 trance,electronic
 mexican classical,brazilian
 nightrun,electronic
@@ -342,7 +342,7 @@ video game music,japanese
 brazilian soul,brazilian
 australian pop,
 jazz blues,jazz
-garage rock revival,
+garage rock revival,rock
 skate punk,metal
 uk house,electronic
 avant-garde jazz,jazz
@@ -364,7 +364,7 @@ german techno,electronic
 nantes indie,
 pagode,brazilian
 harlem hip hop,rap
-electronic rock,indie
+electronic rock,
 latin jazz,latin
 contemporary jazz,jazz
 musica popular mineira,
@@ -584,7 +584,7 @@ popwave,electronic
 zolo,rock
 spiritual hip hop,rap
 bass house,electronic
-neon pop punk,metal
+neon pop punk,rock
 phonk brasileiro,
 seattle hip hop,
 christian dance,metal
@@ -844,7 +844,7 @@ french synthpop,
 nz pop,indie
 bassline,electronic
 trap tuga,
-canadian pop punk,metal
+canadian pop punk,rock
 uk contemporary jazz,rap
 electro trash,electronic
 lo-fi indie,
@@ -1340,7 +1340,7 @@ irish hip hop,rap
 theme,japanese
 viola caipira,brazilian
 grunge pop,metal
-garage pop,indie
+garage pop,
 oakland indie,indie
 chill beats,electronic
 charango,latin
@@ -1507,7 +1507,7 @@ laboratorio,electronic
 indonesian pop,
 danish metal,metal
 danish rock,
-uk pop punk,metal
+uk pop punk,rock
 elephant 6,
 rap cristao,brazilian
 dakke dak,
@@ -1610,7 +1610,7 @@ indie r&b,rap
 melodic metalcore,metal
 doom metal,metal
 orchestra,classical
-power-pop punk,metal
+power-pop punk,rock
 shanty,metal
 post-minimalism,electronic
 bahamian pop,rap
@@ -1944,7 +1944,7 @@ swedish singer-songwriter,
 swedish americana,
 southern metal,metal
 pop venezolano,
-chicago pop punk,metal
+chicago pop punk,rock
 trap cristao,
 experimental dubstep,
 jazz worship,
