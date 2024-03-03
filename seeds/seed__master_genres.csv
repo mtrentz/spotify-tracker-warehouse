@@ -77,7 +77,7 @@ jazz,jazz
 folk rock,rock
 classical guitar,classical
 new wave pop,rock
-dancefloor dnb,
+dancefloor dnb,electronic
 southern hip hop,rap
 brazilian reggae,latin
 rap nacional antigo,rap
@@ -123,7 +123,7 @@ synthpop,rock
 canadian metal,metal
 glam rock,rock
 electropop,pop
-oakland hip hop,
+oakland hip hop,rap
 post-romantic era,classical
 sheffield indie,indie
 choro,latin
@@ -132,17 +132,17 @@ proto-metal,metal
 pop edm,electronic
 uk dance,electronic
 tropical house,electronic
-violao classico,
+violao classico,classical
 classical era,classical
-north carolina hip hop,
+north carolina hip hop,rap
 stoner rock,rock
 sacramento indie,indie
 early romantic era,classical
 new romantic,rock
-guitarra clasica,
+guitarra clasica,classical
 trap brasileiro,latin
 contemporary post-bop,jazz
-political hip hop,
+political hip hop,rap
 r&b,rap
 jam band,rock
 indie game soundtrack,lofi
@@ -152,7 +152,7 @@ canadian electronic,electronic
 future garage,electronic
 canterbury scene,rock
 afrofuturismo brasileiro,latin
-synth prog,
+synth prog,electronic
 dubstep,electronic
 vgm instrumental,lofi
 flamenco guitar,latin
@@ -189,7 +189,7 @@ electronic trap,electronic
 flamenco,latin
 metropopolis,pop
 aussietronica,electronic
-brazilian classical,
+brazilian classical,classical
 boy band,
 rumba,latin
 rap mineiro,rap
@@ -198,15 +198,15 @@ ukrainian classical,classical
 dubstep product,electronic
 piano rock,indie
 rap rock,rock
-tropicalia,
+tropicalia,latin
 neo soul,soul
 pop rock,pop
 impressionism,classical
 pop rap brasileiro,pop
-drum and bass,
+drum and bass,electronic
 lo-fi product,lofi
 australian indie,
-rap df,
+rap df,rap
 jazz piano,jazz
 alternative hip hop,rap
 jazz trumpet,jazz
