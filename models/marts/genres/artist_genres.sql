@@ -6,7 +6,12 @@ with
 
     genres as (select * from {{ ref("genres") }})
 
-select artists.*, genres.genre_id, genres.genre_name, genres.master_genre
+select
+    artists.*,
+    genres.genre_id,
+    genres.genre_name,
+    genres.master_genre,
+    genres.master_genre_verbose
 
 from artists
 inner join artist_genres on artists.artist_id = artist_genres.artist_id

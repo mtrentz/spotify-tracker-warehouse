@@ -16,7 +16,8 @@ select
     sh.hours_played,
     t.*,
     g.genre_name,
-    g.master_genre
+    g.master_genre,
+    g.master_genre_verbose
 
 from streaming_history sh
 inner join tracks t on sh.track_id = t.track_id
