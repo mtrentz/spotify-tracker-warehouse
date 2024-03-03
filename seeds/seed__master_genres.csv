@@ -239,7 +239,7 @@ darksynth,electronic
 australian electropop,pop
 glitch hop,electronic
 new jack swing,rap
-japanese math rock,japanese
+japanese math rock,rock
 funk carioca,latin
 japanese vgm,lofi
 swedish pop,pop
@@ -257,7 +257,7 @@ german romanticism,
 electronica,electronic
 electra,electronic
 anime lo-fi,lofi
-chiptune,japanese
+chiptune,electronic
 protopunk,rock
 uk pop,pop
 philly rap,rap
@@ -266,7 +266,7 @@ escape room,
 classic canadian rock,rock
 focus beats,
 birmingham metal,metal
-japanese post-rock,japanese
+japanese post-rock,rock
 uk doom metal,metal
 detroit rock,
 jazz funk,jazz
@@ -410,7 +410,7 @@ melodic house,
 northern soul,rap
 electric bass,jazz
 jazz quartet,jazz
-japanese soul,japanese
+japanese soul,soul
 spectra,
 cali rap,rap
 nu jazz,jazz
@@ -425,7 +425,7 @@ funktronica,
 etherpop,pop
 rockabilly,rock
 swedish hip hop,
-comedy rap,japanese
+comedy rap,rap
 liquid funk,
 afrobeat,rap
 rage rap,
@@ -457,7 +457,7 @@ art pop,pop
 singer-songwriter pop,pop
 drumless hip hop,
 irish pop,pop
-anime score,japanese
+anime score,
 samba-rock,latin
 boom bap,rap
 jazztronica,electronic
@@ -570,7 +570,7 @@ euphoric hardstyle,
 classic hardstyle,
 boogaloo,latin
 latin hip hop,latin
-soundtrack,japanese
+soundtrack,
 instrumental funk,rap
 chill out,
 musica tradicional cubana,
@@ -681,7 +681,7 @@ indie jazz,jazz
 swedish alternative rock,
 finnish edm,electronic
 channel islands indie,
-epicore,japanese
+epicore,
 norwegian house,
 deep liquid bass,
 j-ambient,electronic
@@ -739,7 +739,7 @@ footwork,electronic
 delta blues,rock
 chill dream pop,pop
 study beats,
-german soundtrack,japanese
+german soundtrack,
 belgian pop,pop
 nu skool breaks,electronic
 acoustic rock,
@@ -812,7 +812,7 @@ new italo disco,
 swedish jazz,jazz
 nu gaze,rock
 slovenian electronic,electronic
-japanese soundtrack,japanese
+japanese soundtrack,
 operatic pop,classical
 swedish house,electronic
 slovak electronic,
@@ -849,7 +849,7 @@ uk contemporary jazz,jazz
 electro trash,electronic
 lo-fi indie,lofi
 american contemporary classical,electronic
-classic soundtrack,japanese
+classic soundtrack,
 indie hip hop,
 ccm,metal
 albanian hip hop,
@@ -961,7 +961,7 @@ british indie rock,rock
 finnish jazz,jazz
 emo,metal
 serbian electronic,electronic
-movie tunes,japanese
+movie tunes,
 celtic rock,
 philly indie,
 musica alagoana,
@@ -1070,7 +1070,7 @@ sludge metal,metal
 belgian hip hop,
 nz gangsta rap,
 british singer-songwriter,
-sound team,japanese
+sound team,
 trombone brasileiro,
 experimental rock,rock
 ragtime,jazz
@@ -1102,7 +1102,7 @@ progressive groove metal,metal
 atlanta metal,
 australian trap,
 celtic,
-canadian soundtrack,japanese
+canadian soundtrack,
 canadian classical,electronic
 vaportrap,
 modular synth,electronic
@@ -1158,12 +1158,12 @@ japanese piano,
 bc underground hip hop,rap
 italian contemporary jazz,jazz
 proto-techno,electronic
-japanese singer-songwriter,japanese
-japanese folk,japanese
+japanese singer-songwriter,
+japanese folk,
 classic j-rock,rock
 trance brasileiro,
 cante flamenco,latin
-latin soundtrack,japanese
+latin soundtrack,latin
 transpop,pop
 kwaito,
 rap catarinense,
@@ -1202,15 +1202,15 @@ icelandic indie,electronic
 san diego rap,rap
 classic italian pop,pop
 high-tech minimal,
-commons,japanese
+commons,
 pop ambient,pop
 russian dnb,
 ska punk,metal
 finnish modern jazz,jazz
 nu age,electronic
 post-hardcore,rock
-show tunes,japanese
-hollywood,japanese
+show tunes,
+hollywood,
 musica paraibana,
 no beat,
 houston rap,rap
@@ -1218,7 +1218,7 @@ dutch rap pop,pop
 traditional funk,rap
 welsh rock,rock
 victoria bc indie,
-a cappella,japanese
+a cappella,
 new americana,rock
 lovers rock,
 jazz brass,jazz
@@ -1289,7 +1289,7 @@ belgian rock,
 israeli pop,pop
 electro latino,latin
 japanese blues,
-japanese ska,japanese
+japanese ska,
 fremantle indie,
 canadian classical piano,
 argentine ambient,electronic
@@ -1335,9 +1335,9 @@ berlin school,rock
 alabama indie,
 cascadia psych,
 italian library music,
-comic,japanese
+comic,
 irish hip hop,rap
-theme,japanese
+theme,
 viola caipira,latin
 grunge pop,metal
 garage pop,pop
@@ -1432,7 +1432,7 @@ south african rock,
 dub punk,
 ambient folk,
 rap paranaense,
-horror synth,japanese
+horror synth,
 german pop rock,pop
 musica rondoniense,
 birmingham grime,rap
@@ -1540,7 +1540,7 @@ deconstructed club,
 k-pop boy group,pop
 english renaissance,classical
 psicodelia chilena,
-west end,japanese
+west end,
 vegas indie,
 library music,rock
 danish alternative rock,
@@ -1554,8 +1554,8 @@ sunnlensk tonlist,
 turkish deep house,
 turkish edm,electronic
 workout product,
-phoenix indie,japanese
-broadway,japanese
+phoenix indie,
+broadway,
 man's orchestra,
 discofox,
 finnish progressive rock,
@@ -1605,7 +1605,7 @@ ok indie,
 hamburg hip hop,
 maga rap,
 country road,
-j-acoustic,japanese
+j-acoustic,
 indie r&b,rap
 melodic metalcore,metal
 doom metal,metal
@@ -1646,7 +1646,7 @@ japanese experimental,electronic
 modern uplift,
 celtic punk,
 mod revival,rock
-children's story,japanese
+children's story,
 no wave,electronic
 breakcore,electronic
 japanese electropop,pop
@@ -1688,7 +1688,7 @@ eau claire indie,
 canadian indigenous hip hop,
 canadian indigenous music,
 trap pesado,
-nordic soundtrack,japanese
+nordic soundtrack,
 jump blues,rock
 aggressive phonk,
 beats,rap
@@ -1699,7 +1699,7 @@ industrial hip hop,rap
 kizomba,
 tassie indie,
 social media pop,pop
-music box,japanese
+music box,
 ukrainian electronic,electronic
 ukrainian edm,
 digital hardcore,electronic
@@ -1730,7 +1730,7 @@ vintage hollywood,jazz
 vintage chanson,
 modern ska punk,metal
 grebo,
-british soundtrack,japanese
+british soundtrack,
 brazilian percussion,latin
 alabama rap,rap
 german opera,classical
@@ -1839,7 +1839,7 @@ swedish idol pop,pop
 indonesian city pop,pop
 folk siciliana,classical
 anime drill,
-8-bit,japanese
+8-bit,electronic
 japanese contemporary classical,
 anarcho-punk,metal
 pittsburgh rock,rock
@@ -1874,7 +1874,7 @@ japanese teen pop,pop
 musical advocacy,
 dark post-punk,
 japanese underground rap,
-children's music,japanese
+children's music,
 brazilian dnb,
 polish contemporary classical,electronic
 south african alternative,
