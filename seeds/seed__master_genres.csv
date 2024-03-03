@@ -592,7 +592,7 @@ funk das antigas,latin
 brooklyn indie,indie
 tech house,electronic
 uk bass,
-japanese alternative rock,japanese
+japanese alternative rock,rock
 drill,rap
 dfw rap,rap
 surf music,rock
@@ -606,7 +606,7 @@ funk mtg,
 progressive metal,metal
 rochester mn indie,indie
 african-american classical,
-japanese indie pop,japanese
+japanese indie pop,pop
 irish rock,indie
 nordic house,electronic
 intelligent dance music,electronic
@@ -1160,7 +1160,7 @@ italian contemporary jazz,jazz
 proto-techno,indie
 japanese singer-songwriter,japanese
 japanese folk,japanese
-classic j-rock,japanese
+classic j-rock,rock
 trance brasileiro,
 cante flamenco,latin
 latin soundtrack,japanese
@@ -1326,7 +1326,7 @@ ambient pop,pop
 american post-punk,
 cello,classical
 string duo,
-japanese dream pop,japanese
+japanese dream pop,pop
 small room,indie
 rap inde,
 freestyle,rap
@@ -1649,8 +1649,8 @@ mod revival,rock
 children's story,japanese
 no wave,indie
 breakcore,electronic
-japanese electropop,japanese
-j-pop girl group,japanese
+japanese electropop,electronic
+j-pop girl group,pop
 j-idol,pop
 picopop,pop
 austro-german modernism,electronic
@@ -1682,7 +1682,7 @@ drone rock,
 diy emo,metal
 melbourne indie,
 metalcore,metal
-japanese new wave,japanese
+japanese new wave,pop
 power metal,metal
 eau claire indie,indie
 canadian indigenous hip hop,
@@ -1782,7 +1782,7 @@ ghettotech,electronic
 idol kayo,
 j-metal,metal
 raw techno,electronic
-antiviral pop,japanese
+antiviral pop,pop
 nigerian pop,pop
 deep flow,rap
 instrumental surf,rock
@@ -1802,9 +1802,9 @@ israeli rock,
 dutch rock,
 indonesian jazz,jazz
 deathcore,metal
-japanese post-hardcore,japanese
-japanese punk rock,japanese
-japanese emo,japanese
+japanese post-hardcore,rock
+japanese punk rock,rock
+japanese emo,rock
 old school dancehall,
 deep ragga,
 deep free jazz,jazz
