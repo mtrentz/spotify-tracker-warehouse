@@ -279,7 +279,7 @@ romantico,rock
 electro,electronic
 sky room,electronic
 early avant garde,classical
-j-reggae,japanese
+j-reggae,
 dutch dnb,
 jazz trio,jazz
 alt z,
@@ -451,7 +451,7 @@ christian hip hop,metal
 vincy soca,
 italo dance,
 bandolim,
-j-rock,japanese
+j-rock,rock
 underground rap,rap
 art pop,pop
 singer-songwriter pop,pop
@@ -988,7 +988,7 @@ hands up,
 riddim dubstep,electronic
 native american contemporary,
 swedish pop rap,pop
-j-pop,japanese
+j-pop,pop
 popgaze,pop
 classic country pop,pop
 zambian hip hop,rap
@@ -1015,7 +1015,7 @@ new age,
 sudanese hip hop,
 jazzy dnb,jazz
 moldovan pop,pop
-shibuya-kei,japanese
+shibuya-kei,pop
 bubblegum pop,rock
 uk garage,electronic
 spacegrunge,
@@ -1043,7 +1043,7 @@ pop house,pop
 groove room,electronic
 latin rock,latin
 space rock,metal
-anime,japanese
+anime,
 nintendocore,metal
 deep smooth jazz,jazz
 bubblegum dance,
@@ -1651,7 +1651,7 @@ no wave,indie
 breakcore,electronic
 japanese electropop,japanese
 j-pop girl group,japanese
-j-idol,japanese
+j-idol,pop
 picopop,pop
 austro-german modernism,electronic
 venezuelan hip hop,latin
@@ -1780,7 +1780,7 @@ atlanta indie,indie
 dutch indie rock,
 ghettotech,electronic
 idol kayo,
-j-metal,japanese
+j-metal,metal
 raw techno,electronic
 antiviral pop,japanese
 nigerian pop,pop
@@ -1854,7 +1854,7 @@ suomirap,
 finnish hip hop,
 rock keyboard,
 west australian hip hop,
-kayokyoku,japanese
+kayokyoku,pop
 nz singer-songwriter,indie
 operetta,classical
 rap cristiano,metal
