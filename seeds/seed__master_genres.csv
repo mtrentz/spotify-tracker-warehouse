@@ -27,7 +27,7 @@ blues rock,rock
 hardcore hip hop,rap
 west coast rap,rap
 complextro,electronic
-brazilian hip hop,brazilian
+brazilian hip hop,latin
 glam metal,rock
 grunge,rock
 modern rock,rock
@@ -37,7 +37,7 @@ supergroup,rock
 queens hip hop,rap
 classic japanese jazz,japanese
 lo-fi vgm,
-bossa nova,brazilian
+bossa nova,latin
 pop dance,
 electro house,electronic
 brostep,electronic
@@ -57,17 +57,17 @@ classical,classical
 instrumental hip hop,rap
 ambeat,rap
 g funk,rap
-violao,brazilian
-mpb,brazilian
+violao,latin
+mpb,latin
 japanese old school hip hop,rap
 rap metal,metal
 singer-songwriter,rock
-brazilian jazz,brazilian
+brazilian jazz,latin
 trap,rap
 japanese jazz fusion,japanese
 jazz guitar,jazz
 swamp rock,rock
-samba,brazilian
+samba,latin
 melodic dubstep,electronic
 boom bap brasileiro,
 japanese jazz,japanese
@@ -79,14 +79,14 @@ classical guitar,classical
 new wave pop,rock
 dancefloor dnb,
 southern hip hop,rap
-brazilian reggae,brazilian
+brazilian reggae,latin
 rap nacional antigo,rap
-latin classical,brazilian
+latin classical,latin
 acid rock,rock
 candy pop,indie
 synthwave,electronic
 instrumental rock,rock
-velha guarda,brazilian
+velha guarda,latin
 italian pop,italian
 indie rock italiano,italian
 garage rock,indie
@@ -126,7 +126,7 @@ electropop,indie
 oakland hip hop,
 post-romantic era,classical
 sheffield indie,indie
-choro,brazilian
+choro,latin
 chicago rap,rap
 proto-metal,metal
 pop edm,electronic
@@ -140,7 +140,7 @@ sacramento indie,indie
 early romantic era,classical
 new romantic,rock
 guitarra clasica,
-trap brasileiro,brazilian
+trap brasileiro,latin
 contemporary post-bop,jazz
 political hip hop,
 r&b,rap
@@ -151,7 +151,7 @@ flute rock,rock
 canadian electronic,electronic
 future garage,electronic
 canterbury scene,rock
-afrofuturismo brasileiro,brazilian
+afrofuturismo brasileiro,latin
 synth prog,
 dubstep,electronic
 vgm instrumental,
@@ -213,7 +213,7 @@ jazz trumpet,jazz
 chillwave,indie
 polish classical,classical
 urban contemporary,rap
-rap baiano,brazilian
+rap baiano,latin
 europop,
 scottish rock,indie
 neo mellow,indie
@@ -225,7 +225,7 @@ german baroque,classical
 disco,rap
 swedish synthpop,indie
 classic dubstep,
-brazilian rock,brazilian
+brazilian rock,latin
 bristol electronic,electronic
 modern blues,rock
 slap house,
@@ -240,7 +240,7 @@ australian electropop,indie
 glitch hop,electronic
 new jack swing,rap
 japanese math rock,japanese
-funk carioca,brazilian
+funk carioca,latin
 japanese vgm,japanese
 swedish pop,
 new wave,rock
@@ -316,7 +316,7 @@ german metal,metal
 german rock,rock
 deep euro house,electronic
 german hard rock,rock
-samba de roda,brazilian
+samba de roda,latin
 lo-fi jazzhop,
 future bass,
 oceania soundtrack,japanese
@@ -325,11 +325,11 @@ minimal tech house,electronic
 modern alternative rock,rock
 socal pop punk,rock
 trance,electronic
-mexican classical,brazilian
+mexican classical,latin
 nightrun,electronic
 uk contemporary r&b,rap
 latin afrobeat,latin
-afrobeat brasileiro,brazilian
+afrobeat brasileiro,latin
 ohio hip hop,
 canadian contemporary r&b,rap
 emo rap,rap
@@ -337,9 +337,9 @@ jazz fusion,jazz
 modern power pop,indie
 dutch edm,electronic
 accordeon,jazz
-brazilian boogie,brazilian
+brazilian boogie,latin
 video game music,japanese
-brazilian soul,brazilian
+brazilian soul,latin
 australian pop,
 jazz blues,jazz
 garage rock revival,rock
@@ -351,18 +351,18 @@ pov: indie,
 big beat,electronic
 quiet storm,rap
 russian edm,
-rock alternativo brasileiro,brazilian
+rock alternativo brasileiro,latin
 deep disco house,electronic
-hard rock brasileiro,brazilian
+hard rock brasileiro,latin
 minimal techno,electronic
-nova mpb,brazilian
+nova mpb,latin
 viral trap,rap
 deep house,electronic
 afrofuturism,electronic
-rock nacional brasileiro,brazilian
+rock nacional brasileiro,latin
 german techno,electronic
 nantes indie,
-pagode,brazilian
+pagode,latin
 harlem hip hop,rap
 electronic rock,
 latin jazz,latin
@@ -373,7 +373,7 @@ vogue,electronic
 microhouse,electronic
 one-person band,indie
 ottawa indie,indie
-brazilian edm,brazilian
+brazilian edm,latin
 new jersey rap,rap
 deep groove house,electronic
 chill pop,
@@ -403,7 +403,7 @@ german dance,electronic
 baroque pop,indie
 australian rock,
 smooth jazz,jazz
-piano mpb,brazilian
+piano mpb,latin
 australian psych,
 choro contemporaneo,
 melodic house,
@@ -418,8 +418,8 @@ uk alternative pop,indie
 rock-and-roll,rock
 jazz boom bap,rap
 future house,electronic
-axe,brazilian
-funk ostentacao,brazilian
+axe,latin
+funk ostentacao,latin
 melbourne bounce international,electronic
 funktronica,
 etherpop,indie
@@ -431,7 +431,7 @@ afrobeat,rap
 rage rap,
 madchester,indie
 medieval,classical
-samba-enredo,brazilian
+samba-enredo,latin
 cedm,metal
 mississippi hip hop,
 lo-fi brasileiro,
@@ -440,7 +440,7 @@ french romanticism,
 pop rock brasileiro,
 uplifting trance,electronic
 proto-hyperpop,
-pop nacional,brazilian
+pop nacional,latin
 neo r&b,rap
 danish pop,
 organic house,
@@ -458,7 +458,7 @@ singer-songwriter pop,
 drumless hip hop,
 irish pop,indie
 anime score,japanese
-samba-rock,brazilian
+samba-rock,latin
 boom bap,rap
 jazztronica,electronic
 classical guitar duo,classical
@@ -496,7 +496,7 @@ pittsburgh rap,rap
 reggaeton,latin
 asian american hip hop,rap
 golden age hip hop,
-umbanda,brazilian
+umbanda,latin
 atl trap,rap
 sleaze rock,rock
 britpop,indie
@@ -509,7 +509,7 @@ pop r&b,
 experimental,indie
 jazz cubano,latin
 swing,jazz
-sertanejo universitario,brazilian
+sertanejo universitario,latin
 teen pop,indie
 swedish indie rock,
 french indie pop,
@@ -527,10 +527,10 @@ old school atlanta hip hop,
 instrumental worship,
 industrial rock,indie
 tennessee hip hop,
-brazilian emo,brazilian
+brazilian emo,latin
 lo-fi chill,rap
 montreal indie,rap
-brazilian punk,brazilian
+brazilian punk,latin
 memphis hip hop,rap
 neurostep,
 brighton indie,indie
@@ -588,7 +588,7 @@ neon pop punk,rock
 phonk brasileiro,
 seattle hip hop,
 christian dance,metal
-funk das antigas,brazilian
+funk das antigas,latin
 brooklyn indie,indie
 tech house,electronic
 uk bass,
@@ -629,7 +629,7 @@ saxophone house,
 jungle,
 new orleans rap,rap
 jazz organ,jazz
-coverchill,brazilian
+coverchill,latin
 christmas instrumental,electronic
 uk dnb,
 indie dream pop,indie
@@ -673,7 +673,7 @@ traprun,electronic
 stride,jazz
 piano cover,electronic
 norwegian pop,
-rock gaucho,brazilian
+rock gaucho,latin
 barbadian pop,
 portland hip hop,rap
 leipzig electronic,electronic
@@ -714,7 +714,7 @@ canadian trap,
 lithuanian electronic,electronic
 english indie rock,indie
 jazz vibraphone,jazz
-r&b brasileiro,brazilian
+r&b brasileiro,latin
 glam punk,rock
 dutch prog,rock
 dancehall,
@@ -748,13 +748,13 @@ rave,
 wave,electronic
 acid jazz,electronic
 thrash metal,metal
-brazilian indie,brazilian
+brazilian indie,latin
 german prog,
 modern big band,jazz
 deep uplifting trance,electronic
 czech classical,
 german trance,
-rap feminino nacional,brazilian
+rap feminino nacional,latin
 minimal dnb,
 jazz pop,
 minimal melodic techno,electronic
@@ -788,7 +788,7 @@ contemporary classical,electronic
 progressive trance house,electronic
 drift phonk,
 native american traditional,
-partido alto,brazilian
+partido alto,latin
 swedish techno,electronic
 contemporary vocal jazz,jazz
 british jazz,jazz
@@ -818,7 +818,7 @@ swedish house,electronic
 slovak electronic,
 uk experimental electronic,electronic
 austrian dnb,
-baiao,brazilian
+baiao,latin
 speed garage,electronic
 tribal house,electronic
 classic house,
@@ -830,9 +830,9 @@ ai,
 latin alternative,latin
 cape town indie,
 post-rock,indie
-sertanejo,brazilian
+sertanejo,latin
 kawaii future bass,electronic
-coco,brazilian
+coco,latin
 hypnagogic pop,
 post-punk,indie
 gypsy jazz,jazz
@@ -895,7 +895,7 @@ new jersey indie,indie
 ambient,electronic
 plugg,
 danish electropop,
-roda de samba,brazilian
+roda de samba,latin
 reggae rock,
 futuristic swag,
 easy listening,rock
@@ -942,16 +942,16 @@ fictitious orchestra,
 detroit trap,rap
 rap cearense,
 icelandic electronic,electronic
-brazilian house,brazilian
+brazilian house,latin
 k-pop,
 bay area indie,indie
 psychedelic trance,
 funk consciente,
 scandinavian r&b,
-folk brasileiro,brazilian
+folk brasileiro,latin
 munich electronic,electronic
 french jazz,jazz
-bossa nova jazz,brazilian
+bossa nova jazz,latin
 futurepop,metal
 gregorian dance,
 japanese progressive house,electronic
@@ -983,7 +983,7 @@ psybreaks,
 scratch,electronic
 folktronica,indie
 slam poetry,rap
-bossa nova cover,brazilian
+bossa nova cover,latin
 hands up,
 riddim dubstep,
 native american contemporary,
@@ -1001,7 +1001,7 @@ balearic,electronic
 boston hip hop,rap
 modern jangle pop,indie
 modern reggae,
-pagode baiano,brazilian
+pagode baiano,latin
 japanese electronic,electronic
 bouncy house,
 noise rock,indie
@@ -1123,7 +1123,7 @@ classic texas country,
 newcastle indie,indie
 slowcore,
 alternative emo,metal
-tango,brazilian
+tango,latin
 deep chill,electronic
 anti-folk,indie
 dark synthpop,
@@ -1132,7 +1132,7 @@ pop electronico,
 tropical alternativo,
 cumbia,latin
 nightcore,
-sertanejo pop,brazilian
+sertanejo pop,latin
 american shoegaze,indie
 icelandic rock,electronic
 australian alternative pop,
@@ -1143,7 +1143,7 @@ trancecore,metal
 norwegian indie,
 anthem emo,metal
 east anglia indie,indie
-forro,brazilian
+forro,latin
 contemporary country,
 glitchbreak,
 salsa,latin
@@ -1237,7 +1237,7 @@ experimental jazz,rap
 singeli,
 groove metal,metal
 german alternative rock,
-sertanejo tradicional,brazilian
+sertanejo tradicional,latin
 women's music,
 british orchestra,
 instrumental math rock,indie
@@ -1300,7 +1300,7 @@ french garage rock,
 french stoner rock,
 rhode island rap,
 tunantada,
-indie curitibano,brazilian
+indie curitibano,latin
 21st century classical,electronic
 israeli jazz,jazz
 portuguese indie,
@@ -1338,7 +1338,7 @@ italian library music,japanese
 comic,japanese
 irish hip hop,rap
 theme,japanese
-viola caipira,brazilian
+viola caipira,latin
 grunge pop,metal
 garage pop,
 oakland indie,indie
@@ -1408,7 +1408,7 @@ mande pop,
 mallet,electronic
 malian blues,
 musique mandingue,
-brazilian modern jazz,brazilian
+brazilian modern jazz,latin
 musica yucateca,
 trova,latin
 cancion melodica,latin
@@ -1463,7 +1463,7 @@ dreamgaze,indie
 polynesian hip hop,
 japanese vtuber,
 salon music,
-musica triste brasileira,brazilian
+musica triste brasileira,latin
 scottish indie,indie
 balfolk,italian
 russelater,
@@ -1480,8 +1480,8 @@ indiecoustica,metal
 pet calming,
 screamocore,metal
 grungegaze,
-nuevo tango,brazilian
-bandoneon,brazilian
+nuevo tango,latin
+bandoneon,latin
 portland indie,indie
 chanson paillarde,
 orlando indie,metal
@@ -1494,7 +1494,7 @@ wrestling,metal
 classical trumpet,jazz
 german reggae,
 classic female blues,
-belo horizonte indie,brazilian
+belo horizonte indie,latin
 ska revival,
 funky house,
 louisville underground,
@@ -1509,7 +1509,7 @@ danish metal,metal
 danish rock,
 uk pop punk,rock
 elephant 6,
-rap cristao,brazilian
+rap cristao,latin
 dakke dak,
 djent,metal
 detroit trap brasileiro,
@@ -1525,7 +1525,7 @@ brisbane punk,
 rap canario,
 portuguese jazz,
 korean trap,
-brasilia indie,brazilian
+brasilia indie,latin
 funk viral,
 brooklyn drill,
 panamanian pop,latin
@@ -1629,8 +1629,8 @@ warm drone,electronic
 rap baixada fluminense,
 alternative pop rock,metal
 bosnian electronic,metal
-brazilian ska,brazilian
-deep brazilian pop,brazilian
+brazilian ska,latin
+deep brazilian pop,latin
 zouk,
 exotica,rock
 vintage french electronic,electronic
@@ -1639,7 +1639,7 @@ icelandic experimental,electronic
 icelandic singer-songwriter,
 experimental vocal,indie
 vintage swedish pop,
-funk bh,brazilian
+funk bh,latin
 modern funk,rap
 modern country rock,
 japanese experimental,electronic
@@ -1659,7 +1659,7 @@ italian indie pop,italian
 italian alternative,italian
 indie folk italiano,italian
 turin indie,italian
-samba reggae,brazilian
+samba reggae,latin
 post-metal,metal
 drone metal,metal
 pop flamenco,latin
@@ -1731,7 +1731,7 @@ vintage chanson,
 modern ska punk,metal
 grebo,
 british soundtrack,japanese
-brazilian percussion,brazilian
+brazilian percussion,latin
 alabama rap,rap
 german opera,classical
 austin metal,
@@ -1794,7 +1794,7 @@ finnish metal,metal
 flamenco urbano,latin
 russian contemporary classical,electronic
 konsrock,
-jovem guarda,brazilian
+jovem guarda,latin
 korean ost,
 pinoy hip hop,
 pianissimo,
@@ -1817,7 +1817,7 @@ ranchera,latin
 zouk riddim,
 classic j-pop,
 samba moderno,
-brazilian punk rock,brazilian
+brazilian punk rock,latin
 virgin islands reggae,
 neoclassical darkwave,metal
 bouzouki,
@@ -1883,7 +1883,7 @@ african rock,
 musica maranhense,
 oc rap,
 tecnobrega,
-musica popular paraense,brazilian
+musica popular paraense,latin
 karaoke,
 covertrance,
 alabama metal,metal
@@ -1925,7 +1925,7 @@ mandopop,
 kc indie,metal
 new jersey hardcore,metal
 new jersey punk,metal
-brega funk,brazilian
+brega funk,latin
 twoubadou,
 musica cabo-verdiana,
 morna,
