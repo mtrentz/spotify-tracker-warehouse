@@ -87,8 +87,8 @@ candy pop,pop
 synthwave,electronic
 instrumental rock,rock
 velha guarda,latin
-italian pop,italian
-indie rock italiano,italian
+italian pop,pop
+indie rock italiano,rock
 garage rock,indie
 mexican classic rock,rock
 lo-fi study,
@@ -902,7 +902,7 @@ easy listening,rock
 german jazz rap,jazz
 american post-rock,indie
 instrumental post-rock,indie
-vintage italian soundtrack,japanese
+vintage italian soundtrack,
 swedish tropical house,electronic
 outlaw country,rock
 australian reggae fusion,
@@ -975,7 +975,7 @@ experimental r&b,
 dutch hip hop,
 cinematic post-rock,indie
 minneapolis sound,rap
-italian soundtrack,japanese
+italian soundtrack,
 harmonica blues,rock
 danish hip hop,
 nz hip hop,
@@ -1052,7 +1052,7 @@ ambient house,electronic
 alternative country,rock
 synthwave brasileiro,
 finnish alternative rock,
-italian classical guitar,
+italian classical guitar,classical
 arab trap,electronic
 atmospheric dnb,
 minnesota hip hop,rap
@@ -1106,7 +1106,7 @@ canadian soundtrack,japanese
 canadian classical,electronic
 vaportrap,
 modular synth,electronic
-italian hip hop,italian
+italian hip hop,rap
 new orleans funk,rap
 breaks,electronic
 psych gaze,indie
@@ -1200,7 +1200,7 @@ dancehall queen,
 focus,electronic
 icelandic indie,electronic
 san diego rap,rap
-classic italian pop,italian
+classic italian pop,pop
 high-tech minimal,
 commons,japanese
 pop ambient,pop
@@ -1334,7 +1334,7 @@ uk americana,indie
 berlin school,rock
 alabama indie,indie
 cascadia psych,
-italian library music,japanese
+italian library music,
 comic,japanese
 irish hip hop,rap
 theme,japanese
@@ -1415,7 +1415,7 @@ cancion melodica,latin
 ghent indie,
 egg punk,
 medway sound,indie
-italian blues,electronic
+italian blues,rock
 buffalo ny indie,indie
 arab folk,
 oud,
@@ -1465,7 +1465,7 @@ japanese vtuber,
 salon music,
 musica triste brasileira,latin
 scottish indie,indie
-balfolk,italian
+balfolk,
 russelater,
 modern alternative pop,pop
 solipsynthm,electronic
@@ -1568,7 +1568,7 @@ san antonio indie,rock
 louisiana blues,rock
 sad lo-fi,
 brill building pop,rock
-trap italiana,italian
+trap italiana,rap
 gymcore,metal
 riot grrrl,indie
 barrelhouse piano,
@@ -1655,10 +1655,10 @@ j-idol,japanese
 picopop,pop
 austro-german modernism,electronic
 venezuelan hip hop,latin
-italian indie pop,italian
-italian alternative,italian
-indie folk italiano,italian
-turin indie,italian
+italian indie pop,pop
+italian alternative,
+indie folk italiano,
+turin indie,
 samba reggae,latin
 post-metal,metal
 drone metal,metal
@@ -1672,7 +1672,7 @@ post-screamo,metal
 rap latina,latin
 tempe indie,
 virginia metal,metal
-rap napoletano,italian
+rap napoletano,rap
 experimental big band,jazz
 brazilian metal,metal
 swedish blues,
@@ -1811,7 +1811,7 @@ deep free jazz,jazz
 saskatchewan indie,indie
 guitarra mexicana,
 midwest emo,metal
-canzone napoletana,italian
+canzone napoletana,
 bolero mexicano,
 ranchera,latin
 zouk riddim,
@@ -1825,8 +1825,8 @@ neo kyma,
 classic greek pop,pop
 greek contemporary classical,
 vocal harmony group,rock
-italian underground hip hop,italian
-rap italiano old school,
+italian underground hip hop,rap
+rap italiano old school,rap
 italian tenor,classical
 classical tenor,classical
 deboxe,
