@@ -36,7 +36,7 @@ chillstep,electronic
 supergroup,rock
 queens hip hop,rap
 classic japanese jazz,jazz
-lo-fi vgm,
+lo-fi vgm,lofi
 bossa nova,latin
 pop dance,pop
 electro house,electronic
@@ -91,7 +91,7 @@ italian pop,pop
 indie rock italiano,rock
 garage rock,indie
 mexican classic rock,rock
-lo-fi study,
+lo-fi study,lofi
 progressive electro house,electronic
 texas blues,rock
 bebop,jazz
@@ -99,13 +99,13 @@ pop punk,rock
 indietronica,indie
 dance pop,pop
 underground hip hop,rap
-scorecore,japanese
+scorecore,lofi
 chillsynth,electronic
 pixie,rock
 pop emo,rock
-pixel,
+pixel,lofi
 house,electronic
-lo-fi beats,rap
+lo-fi beats,lofi
 hard bop,jazz
 japanese jazztronica,jazz
 progressive house,electronic
@@ -114,7 +114,7 @@ canadian rock,rock
 atl hip hop,rap
 indie pop rap,rap
 british invasion,rock
-otacore,japanese
+otacore,lofi
 christian alternative rock,rock
 substep,electronic
 christian rock,rock
@@ -145,8 +145,8 @@ contemporary post-bop,jazz
 political hip hop,
 r&b,rap
 jam band,rock
-indie game soundtrack,japanese
-vgm remix,
+indie game soundtrack,lofi
+vgm remix,lofi
 flute rock,rock
 canadian electronic,electronic
 future garage,electronic
@@ -154,7 +154,7 @@ canterbury scene,rock
 afrofuturismo brasileiro,latin
 synth prog,
 dubstep,electronic
-vgm instrumental,
+vgm instrumental,lofi
 flamenco guitar,latin
 indie soul,soul
 dutch house,electronic
@@ -204,7 +204,7 @@ pop rock,pop
 impressionism,classical
 pop rap brasileiro,pop
 drum and bass,
-lo-fi product,
+lo-fi product,lofi
 australian indie,
 rap df,
 jazz piano,jazz
@@ -241,7 +241,7 @@ glitch hop,electronic
 new jack swing,rap
 japanese math rock,japanese
 funk carioca,latin
-japanese vgm,japanese
+japanese vgm,lofi
 swedish pop,pop
 new wave,rock
 vapor twitch,electronic
@@ -256,7 +256,7 @@ soul jazz,jazz
 german romanticism,
 electronica,electronic
 electra,electronic
-anime lo-fi,
+anime lo-fi,lofi
 chiptune,japanese
 protopunk,rock
 uk pop,pop
@@ -317,9 +317,9 @@ german rock,rock
 deep euro house,electronic
 german hard rock,rock
 samba de roda,latin
-lo-fi jazzhop,jazz
+lo-fi jazzhop,lofi
 future bass,
-oceania soundtrack,japanese
+oceania soundtrack,lofi
 oxford indie,indie
 minimal tech house,electronic
 modern alternative rock,rock
@@ -338,7 +338,7 @@ modern power pop,pop
 dutch edm,electronic
 accordeon,jazz
 brazilian boogie,latin
-video game music,japanese
+video game music,lofi
 brazilian soul,latin
 australian pop,pop
 jazz blues,jazz
@@ -383,7 +383,7 @@ gaming dubstep,electronic
 eurodance,
 christian music,metal
 traditional blues,rock
-gamecore,japanese
+gamecore,lofi
 guitarra argentina,latin
 city pop,pop
 ska,
@@ -397,7 +397,7 @@ jazz double bass,jazz
 vapor soul,indie
 indie electropop,pop
 lounge,rock
-lo-fi sleep,
+lo-fi sleep,lofi
 german hip hop,
 german dance,electronic
 baroque pop,pop
@@ -434,7 +434,7 @@ medieval,classical
 samba-enredo,latin
 cedm,metal
 mississippi hip hop,
-lo-fi brasileiro,
+lo-fi brasileiro,lofi
 canadian singer-songwriter,rock
 french romanticism,
 pop rock brasileiro,pop
@@ -528,7 +528,7 @@ instrumental worship,
 industrial rock,indie
 tennessee hip hop,
 brazilian emo,latin
-lo-fi chill,rap
+lo-fi chill,lofi
 montreal indie,rap
 brazilian punk,latin
 memphis hip hop,rap
@@ -618,7 +618,7 @@ grime,rap
 speed metal,metal
 jazz orchestra,jazz
 post-teen pop,pop
-lo-fi cover,
+lo-fi cover,lofi
 nz electronic,
 meme rap,rap
 instrumental grime,rap
@@ -847,7 +847,7 @@ trap tuga,
 canadian pop punk,rock
 uk contemporary jazz,jazz
 electro trash,electronic
-lo-fi indie,
+lo-fi indie,lofi
 american contemporary classical,electronic
 classic soundtrack,japanese
 indie hip hop,
@@ -872,7 +872,7 @@ psychedelic pop,pop
 ambient post-rock,
 florida rap,rap
 future rock,metal
-lo-fi,indie
+lo-fi,lofi
 jazz harp,jazz
 brisbane indie,
 bubblegrunge,
@@ -996,7 +996,7 @@ miami bass,rap
 rawstyle,
 space age pop,rock
 deep filthstep,electronic
-lo-fi house,electronic
+lo-fi house,lofi
 balearic,electronic
 boston hip hop,rap
 modern jangle pop,pop
@@ -1007,7 +1007,7 @@ bouncy house,
 noise rock,indie
 chanson,
 idol,indie
-lo-fi latino,
+lo-fi latino,lofi
 crank wave,
 rhythm and blues,rock
 industrial,indie
@@ -1439,7 +1439,7 @@ birmingham grime,rap
 modern goth,
 romanian electronic,electronic
 dutch tech house,electronic
-lo-fi rap,
+lo-fi rap,lofi
 dariacore,
 cornwall indie,indie
 chutney,
@@ -1566,7 +1566,7 @@ g-house,
 experimental folk,indie
 san antonio indie,rock
 louisiana blues,rock
-sad lo-fi,
+sad lo-fi,lofi
 brill building pop,rock
 trap italiana,rap
 gymcore,metal
@@ -1574,7 +1574,7 @@ riot grrrl,indie
 barrelhouse piano,
 new orleans blues,rock
 hip-hop experimental,
-lo-fi emo,
+lo-fi emo,lofi
 american 21st century classical,electronic
 frankfurt electronic,electronic
 arrochadeira,
