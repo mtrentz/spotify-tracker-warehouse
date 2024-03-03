@@ -89,14 +89,14 @@ instrumental rock,rock
 velha guarda,latin
 italian pop,pop
 indie rock italiano,rock
-garage rock,indie
+garage rock,rock
 mexican classic rock,rock
 lo-fi study,lofi
 progressive electro house,electronic
 texas blues,rock
 bebop,jazz
 pop punk,rock
-indietronica,indie
+indietronica,electronic
 dance pop,pop
 underground hip hop,rap
 scorecore,lofi
@@ -210,7 +210,7 @@ rap df,
 jazz piano,jazz
 alternative hip hop,rap
 jazz trumpet,jazz
-chillwave,indie
+chillwave,electronic
 polish classical,classical
 urban contemporary,rap
 rap baiano,latin
@@ -248,7 +248,7 @@ vapor twitch,electronic
 manguebeat,
 spiritual jazz,jazz
 neoclassicism,classical
-alternative dance,indie
+alternative dance,electronic
 wonky,electronic
 breakbeat,electronic
 neo-synthpop,pop
@@ -274,7 +274,7 @@ dirty south rap,rap
 deep underground hip hop,rap
 neurofunk,
 indie poptimism,pop
-alternative rl
+alternative rl,
 romantico,rock
 electro,electronic
 sky room,electronic
@@ -310,7 +310,7 @@ moombahton,electronic
 melbourne bounce,electronic
 melancholia,indie
 classic soul,soul
-dance-punk,indie
+dance-punk,electronic
 belgian edm,electronic
 german metal,metal
 german rock,rock
@@ -387,14 +387,14 @@ gamecore,lofi
 guitarra argentina,latin
 city pop,pop
 ska,
-punk blues,indie
+punk blues,rock
 classic city pop,pop
-girl group,indie
+girl group,pop
 hyperpop,pop
 trip hop,electronic
 experimental hip hop,rap
 jazz double bass,jazz
-vapor soul,indie
+vapor soul,soul
 indie electropop,pop
 lounge,rock
 lo-fi sleep,lofi
@@ -429,7 +429,7 @@ comedy rap,japanese
 liquid funk,
 afrobeat,rap
 rage rap,
-madchester,indie
+madchester,rock
 medieval,classical
 samba-enredo,latin
 cedm,metal
@@ -462,10 +462,10 @@ samba-rock,latin
 boom bap,rap
 jazztronica,electronic
 classical guitar duo,classical
-electrofox,indie
+electrofox,electronic
 new french touch,electronic
 japanese vocal jazz,jazz
-neo-psychedelic,indie
+neo-psychedelic,
 la pop,pop
 german pop,pop
 austrian pop,pop
@@ -483,7 +483,7 @@ old school hip hop,rap
 edmonton indie,indie
 instrumental acoustic guitar,electronic
 vocal house,electronic
-new rave,indie
+new rave,electronic
 livetronica,electronic
 chicago blues,rock
 urbano latino,
@@ -502,7 +502,7 @@ sleaze rock,rock
 britpop,pop
 big band,jazz
 dutch trance,electronic
-indie garage rock,indie
+indie garage rock,rock
 shakuhachi,electronic
 talent show,indie
 pop r&b,pop
@@ -522,10 +522,10 @@ soul blues,rock
 funk rock,metal
 adult standards,rock
 industrial metal,metal
-uk post-punk,indie
+uk post-punk,rock
 old school atlanta hip hop,
 instrumental worship,
-industrial rock,indie
+industrial rock,rock
 tennessee hip hop,
 brazilian emo,latin
 lo-fi chill,lofi
@@ -547,7 +547,7 @@ funk paulista,
 chamber pop,pop
 disco house,electronic
 chicago house,electronic
-irish singer-songwriter,indie
+irish singer-songwriter,
 mashup,electronic
 old school rap francais,
 scottish electronic,electronic
@@ -564,7 +564,7 @@ baton rouge rap,rap
 uk hip hop,rap
 southern soul,rap
 hip hop tuga,
-swedish synth,indie
+swedish synth,electronic
 stomp pop,pop
 euphoric hardstyle,
 classic hardstyle,
@@ -638,10 +638,10 @@ reggae fusion,
 korean instrumental,
 london rap,rap
 abstract beats,electronic
-shoegaze,indie
+shoegaze,rock
 neo-classical,electronic
 relaxative,electronic
-math rock,indie
+math rock,rock
 italian romanticism,
 roots reggae,
 jazz guitar trio,jazz
@@ -652,7 +652,7 @@ screamo,metal
 lgbtq+ hip hop,rap
 uk tech house,electronic
 classify,electronic
-indie surf,indie
+indie surf,rock
 belgian dance,
 vapor pop,pop
 american modern classical,classical
@@ -712,7 +712,7 @@ grave wave,indie
 trap soul,rap
 canadian trap,
 lithuanian electronic,electronic
-english indie rock,indie
+english indie rock,rock
 jazz vibraphone,jazz
 r&b brasileiro,soul
 glam punk,rock
@@ -765,7 +765,7 @@ old school thrash,metal
 swedish underground rap,
 new orleans jazz,jazz
 turntablism,rap
-indie folk,indie
+indie folk,
 dutch indie,
 italian techno,electronic
 circuit,electronic
@@ -810,7 +810,7 @@ dixieland,jazz
 funk rj,
 new italo disco,
 swedish jazz,jazz
-nu gaze,indie
+nu gaze,rock
 slovenian electronic,electronic
 japanese soundtrack,japanese
 operatic pop,classical
@@ -829,12 +829,12 @@ progressive uplifting trance,electronic
 ai,
 latin alternative,latin
 cape town indie,
-post-rock,indie
+post-rock,rock
 sertanejo,latin
 kawaii future bass,electronic
 coco,latin
 hypnagogic pop,pop
-post-punk,indie
+post-punk,rock
 gypsy jazz,jazz
 hyphy,rap
 classic uk pop,rock
@@ -862,7 +862,7 @@ rap portuense,
 sambass,
 musica evangelica instrumental,
 australian house,electronic
-indie punk,indie
+indie punk,rock
 jangle pop,rock
 organic electronic,electronic
 post-disco,rap
@@ -890,7 +890,7 @@ nice indie,
 hardcore techno,
 galante era,classical
 bedroom pop,pop
-british alternative rock,indie
+british alternative rock,rock
 new jersey indie,indie
 ambient,electronic
 plugg,
@@ -900,14 +900,14 @@ reggae rock,
 futuristic swag,
 easy listening,rock
 german jazz rap,jazz
-american post-rock,indie
-instrumental post-rock,indie
+american post-rock,rock
+instrumental post-rock,rock
 vintage italian soundtrack,
 swedish tropical house,electronic
 outlaw country,rock
 australian reggae fusion,
 swedish melodic rock,
-rebel blues,indie
+rebel blues,rock
 brazilian bass,
 norwegian singer-songwriter,
 rap kreyol,
@@ -927,11 +927,11 @@ auckland indie,indie
 bitpop,pop
 speed house,
 country,
-kiwi rock,indie
+kiwi rock,rock
 smooth saxophone,jazz
-neo-singer-songwriter,indie
+neo-singer-songwriter,
 musica andina,
-early us punk,indie
+early us punk,rock
 afropop,pop
 finnish classical,classical
 norwegian jazz,jazz
@@ -957,7 +957,7 @@ gregorian dance,
 japanese progressive house,electronic
 hip house,
 synth funk,rap
-british indie rock,indie
+british indie rock,rock
 finnish jazz,jazz
 emo,metal
 serbian electronic,electronic
@@ -973,7 +973,7 @@ traditional rockabilly,rock
 rock baiano,
 experimental r&b,
 dutch hip hop,
-cinematic post-rock,indie
+cinematic post-rock,rock
 minneapolis sound,rap
 italian soundtrack,
 harmonica blues,rock
@@ -981,7 +981,7 @@ danish hip hop,
 nz hip hop,
 psybreaks,
 scratch,electronic
-folktronica,indie
+folktronica,electronic
 slam poetry,rap
 bossa nova cover,latin
 hands up,
@@ -1004,9 +1004,9 @@ modern reggae,
 pagode baiano,latin
 japanese electronic,electronic
 bouncy house,
-noise rock,indie
+noise rock,rock
 chanson,
-idol,indie
+idol,pop
 lo-fi latino,lofi
 crank wave,
 rhythm and blues,rock
@@ -1026,7 +1026,7 @@ chicago drill,rap
 british modern classical,classical
 rock brasiliense,
 jazz cover,jazz
-boston rock,indie
+boston rock,rock
 alternative roots rock,rock
 puirt-a-beul,
 gregorian chant,
@@ -1057,7 +1057,7 @@ arab trap,electronic
 atmospheric dnb,
 minnesota hip hop,rap
 el paso indie,indie
-modern folk rock,indie
+modern folk rock,rock
 hawaiian hip hop,rap
 irish classical,classical
 ethio-jazz,jazz
@@ -1069,10 +1069,10 @@ r&drill,
 sludge metal,metal
 belgian hip hop,
 nz gangsta rap,
-british singer-songwriter,indie
+british singer-songwriter,
 sound team,japanese
 trombone brasileiro,
-experimental rock,indie
+experimental rock,rock
 ragtime,jazz
 reggae tuga,
 japanese classical,electronic
@@ -1109,7 +1109,7 @@ modular synth,electronic
 italian hip hop,rap
 new orleans funk,rap
 breaks,electronic
-psych gaze,indie
+psych gaze,rock
 russian synthpop,electronic
 arkansas country,
 manchester hip hop,rap
@@ -1125,7 +1125,7 @@ slowcore,
 alternative emo,metal
 tango,latin
 deep chill,electronic
-anti-folk,indie
+anti-folk,rock
 dark synthpop,pop
 lullaby,electronic
 pop electronico,pop
@@ -1133,7 +1133,7 @@ tropical alternativo,
 cumbia,latin
 nightcore,
 sertanejo pop,latin
-american shoegaze,indie
+american shoegaze,rock
 icelandic rock,electronic
 australian alternative pop,pop
 bosstown sound,
@@ -1172,7 +1172,7 @@ psychedelic space rock,metal
 free improvisation,jazz
 calgary indie,indie
 acid house,electronic
-shimmer psych,indie
+shimmer psych,electronic
 norwegian experimental,jazz
 classic garage rock,rock
 trap argentino,latin
@@ -1183,7 +1183,7 @@ uk dancehall,
 psychedelic blues-rock,rock
 rap conscient,
 pop reggaeton,latin
-garage psych,indie
+garage psych,rock
 deep tech house,electronic
 asbury park indie,indie
 instrumental soul,soul
@@ -1195,7 +1195,7 @@ armenian folk,
 electro-pop francais,pop
 afro house,
 dutch experimental electronic,electronic
-surf punk,indie
+surf punk,rock
 dancehall queen,
 focus,electronic
 icelandic indie,electronic
@@ -1208,7 +1208,7 @@ russian dnb,
 ska punk,metal
 finnish modern jazz,jazz
 nu age,electronic
-post-hardcore,indie
+post-hardcore,rock
 show tunes,japanese
 hollywood,japanese
 musica paraibana,
@@ -1216,7 +1216,7 @@ no beat,
 houston rap,rap
 dutch rap pop,pop
 traditional funk,rap
-welsh rock,indie
+welsh rock,rock
 victoria bc indie,indie
 a cappella,japanese
 new americana,rock
@@ -1265,7 +1265,7 @@ spytrack,rock
 gaian doom,metal
 neue deutsche harte,metal
 pluggnb,
-techno kayo,japanese
+techno kayo,electronic
 flick hop,rap
 soul flow,soul
 uk reggae,
@@ -1278,7 +1278,7 @@ miami indie,indie
 windsor on indie,rock
 reading indie,indie
 philly soul,soul
-seattle indie,indie
+seattle indie,rock
 stateside dnb,
 indian jazz,jazz
 rhythm game,metal
@@ -1315,10 +1315,10 @@ bmore,rap
 trap triste,
 argentine hip hop,latin
 czech classical piano,
-neo-kraut,indie
+neo-kraut,electronic
 rock piauiense,
 speed plug brasileiro,
-japanese instrumental,japanese
+japanese instrumental,
 york indie,indie
 huayno,
 microtonal,electronic
@@ -1349,11 +1349,11 @@ portuguese pop,pop
 belfast indie,indie
 northern irish indie,indie
 rap abc paulista,
-canadian post-punk,indie
+canadian post-punk,rock
 austindie,indie
 south african jazz,jazz
-minimal wave,indie
-french post-punk,indie
+minimal wave,electronic
+french post-punk,rock
 ukrainian contemporary classical,
 ukrainian classical piano,
 hardcore punk,metal
@@ -1380,7 +1380,7 @@ classic peruvian pop,latin
 drain,
 grand rapids indie,metal
 persian electronic,
-action rock,indie
+action rock,rock
 polish hip hop,
 schranz,electronic
 anglican liturgy,classical
@@ -1394,7 +1394,7 @@ chinese idol pop,pop
 chinese hip hop,
 malaysian pop,pop
 birmingham indie,indie
-nerdcore,japanese
+nerdcore,rap
 experimental ambient,electronic
 belgian indie,
 nz dnb,
@@ -1414,7 +1414,7 @@ trova,latin
 cancion melodica,latin
 ghent indie,
 egg punk,
-medway sound,indie
+medway sound,rock
 italian blues,rock
 buffalo ny indie,indie
 arab folk,
@@ -1430,7 +1430,7 @@ south african gospel,
 gen z singer-songwriter,
 south african rock,
 dub punk,
-ambient folk,indie
+ambient folk,
 rap paranaense,
 horror synth,japanese
 german pop rock,pop
@@ -1459,7 +1459,7 @@ latin tek,
 jamaican dancehall,
 bedroom soul,soul
 outer hip hop,latin
-dreamgaze,indie
+dreamgaze,rock
 polynesian hip hop,
 japanese vtuber,
 salon music,
@@ -1563,14 +1563,14 @@ classic finnish rock,
 north carolina roots,
 north carolina indie,indie
 g-house,
-experimental folk,indie
+experimental folk,
 san antonio indie,rock
 louisiana blues,rock
 sad lo-fi,lofi
 brill building pop,rock
 trap italiana,rap
 gymcore,metal
-riot grrrl,indie
+riot grrrl,rock
 barrelhouse piano,
 new orleans blues,rock
 hip-hop experimental,
@@ -1598,7 +1598,7 @@ aesthetic rap,
 jazz catala,jazz
 danish techno,electronic
 lute,classical
-canadian psychedelic rock,indie
+canadian psychedelic rock,rock
 swedish country,
 ballet class,classical
 ok indie,indie
@@ -1614,7 +1614,7 @@ power-pop punk,rock
 shanty,metal
 post-minimalism,electronic
 bahamian pop,rap
-art punk,indie
+art punk,rock
 funk mandelao,
 rap tuga underground,
 space ambient,electronic
@@ -1647,9 +1647,9 @@ modern uplift,
 celtic punk,
 mod revival,rock
 children's story,japanese
-no wave,indie
+no wave,electronic
 breakcore,electronic
-japanese electropop,electronic
+japanese electropop,pop
 j-pop girl group,pop
 j-idol,pop
 picopop,pop
@@ -1666,7 +1666,7 @@ pop flamenco,latin
 viral rap,
 scottish new wave,rock
 jersey club,rap
-synth punk,indie
+synth punk,electronic
 jazz mexicano,jazz
 post-screamo,metal
 rap latina,latin
@@ -1702,7 +1702,7 @@ social media pop,pop
 music box,japanese
 ukrainian electronic,electronic
 ukrainian edm,
-digital hardcore,indie
+digital hardcore,electronic
 classical piano trio,classical
 classic colombian pop,latin
 urbano espanol,
@@ -1724,7 +1724,7 @@ metal guitar,metal
 cologne hip hop,
 turkish hip hop,
 uk stoner rock,metal
-australian shoegaze,indie
+australian shoegaze,rock
 cabaret,jazz
 vintage hollywood,jazz
 vintage chanson,
@@ -1766,10 +1766,10 @@ canadian celtic,
 redneck,
 metal cover,
 symphonic metal,metal
-uk post-punk revival,indie
+uk post-punk revival,rock
 brutal prog,
 avant-prog,
-uk noise rock,indie
+uk noise rock,rock
 bergen indie,
 scream rap,rap
 horrorcore,metal
