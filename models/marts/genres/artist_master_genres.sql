@@ -16,3 +16,5 @@ select distinct
 from artist_genres
 inner join genres on artist_genres.genre_id = genres.genre_id
 inner join artists on artist_genres.artist_id = artists.artist_id
+
+where genres.master_genre is not null
