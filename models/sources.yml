@@ -6,7 +6,7 @@ sources:
     schema: public
     tables:
       - name: genres
-        description: "Genres available in the Spotify dataset, including unique identifiers and genre names."
+        description: "Genres available in the Spotify dataset, including unique identifiers and genre names"
       - name: artists
         description: "Details about artists, including their popularity, follower count, and associated images."
       - name: albums
