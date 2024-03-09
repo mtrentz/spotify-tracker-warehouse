@@ -15,7 +15,7 @@
     language sql
     as $$
 
--- {% set postgres_time_unit = map_superset_time_grain_to_postgres_unit(time_grain) %}
+{% set postgres_time_unit = map_superset_time_grain_to_postgres_unit(timeframe) %}
 
 with
     streaming_history as (select * from {{ ref("streaming_history") }}),
