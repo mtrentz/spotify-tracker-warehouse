@@ -10,6 +10,7 @@
             track_name varchar,
             artist_name varchar,
             all_track_artists varchar,
+            track varchar,
             total_ms_played bigint,
             total_minutes_played numeric(18, 2),
             total_hours_played numeric(18, 2)
