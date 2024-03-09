@@ -23,6 +23,10 @@ clean-targets:         # directories to be removed by `dbt clean`
   - "target"
   - "dbt_packages"
 
+on-run-start:
+  - '{{ create_aggregate_top_n_tracks_per_timeframe_udf() }}'
+  - '{{ create_aggregate_top_n_artists_per_timeframe_udf() }}'
+
 
 # Configuring models
 # Full documentation: https://docs.getdbt.com/docs/configuring-models
