@@ -17,12 +17,14 @@
     language sql
     as $$
 
+{% set postgres_time_unit = map_superset_time_grain_to_postgres_unit(time_grain) %}
+
 with
     streaming_history as (select * from {{ ref("streaming_history") }}),
 
     timeframe_track_plays as (
         select
-            date_trunc(timeframe, played_at) as period,
+            date_trunc('{{ postgres_time_unit }}', played_at) as period,
             track_name,
             artist_name,
             all_track_artists,
