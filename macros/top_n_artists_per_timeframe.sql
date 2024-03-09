@@ -1,11 +1,13 @@
 {% macro aggregate_top_n_artists_per_timeframe(n, timeframe) %}
 
+    {% set postgres_time_unit = map_superset_time_grain_to_postgres_unit(time_grain) %}
+
     with
         streaming_history as (select * from {{ ref("streaming_history") }}),
 
         timeframe_artist_plays as (
             select
-                date_trunc('{{ timeframe }}', played_at) as period,
+                date_trunc('{{ postgres_time_unit }}', played_at) as period,
                 artist_name,
                 sum(ms_played) as total_ms_played
             from streaming_history
