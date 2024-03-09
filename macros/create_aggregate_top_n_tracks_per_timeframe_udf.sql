@@ -15,7 +15,8 @@
             total_hours_played numeric(18, 2)
         )
     language sql
-    as $$
+    as
+        $$
 
 with
     streaming_history as (select * from {{ ref("streaming_history") }}),
@@ -66,6 +67,7 @@ select
     track_name,
     artist_name,
     all_track_artists,
+    CASE WHEN track_name = 'Other' THEN 'Other' ELSE track_name || ' - ' || all_track_artists END as track,
     sum(total_ms_played) as total_ms_played,
     sum(total_ms_played) / 60000 as total_minutes_played,
     sum(total_ms_played) / 3600000 as total_hours_played
